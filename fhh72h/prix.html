@@ -1,0 +1,1645 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<title>Service Japon · prix</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiNmYmZjZmUiIHN0cm9rZT0iIzFjM2Q4ZiIgc3Ryb2tlLXdpZHRoPSIzLjUiLz48Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIyNC41IiBmaWxsPSJub25lIiBzdHJva2U9IiMxYzNkOGYiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGcgZmlsbD0iIzFjM2Q4ZiI+PGNpcmNsZSBjeD0iMzIuMDAiIGN5PSIyMi41MCIgcj0iNy42Ii8+PGNpcmNsZSBjeD0iNDEuMDQiIGN5PSIyOS4wNiIgcj0iNy42Ii8+PGNpcmNsZSBjeD0iMzcuNTgiIGN5PSIzOS42OSIgcj0iNy42Ii8+PGNpcmNsZSBjeD0iMjYuNDIiIGN5PSIzOS42OSIgcj0iNy42Ii8+PGNpcmNsZSBjeD0iMjIuOTYiIGN5PSIyOS4wNiIgcj0iNy42Ii8+PC9nPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjQuNiIgZmlsbD0iI2ZiZmNmZSIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjIiIGZpbGw9IiMxYzNkOGYiLz48L3N2Zz4="><meta name="theme-color" content="#1c3d8f">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper:#eef3f9; --card:#fbfcfe; --ink:#14203a; --muted:#66748e; --line:#d6dfec;
+  --cobalt:#1c3d8f; --cobalt-2:#4167b8; --wash:#dde7f6; --rust:#a4523b;
+  --serif:"Cormorant Garamond", Georgia, serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper:#0c1322; --card:#121b2e; --ink:#e4eaf6; --muted:#8a98b4; --line:#22304b;
+  --cobalt:#9ab6ff; --cobalt-2:#6187dd; --wash:#1a2744; --rust:#e3917a; } }
+:root[data-theme="dark"] { --paper:#0c1322; --card:#121b2e; --ink:#e4eaf6; --muted:#8a98b4; --line:#22304b;
+  --cobalt:#9ab6ff; --cobalt-2:#6187dd; --wash:#1a2744; --rust:#e3917a; }
+* { box-sizing:border-box }
+body { margin:0; background:var(--paper); color:var(--ink); font:14px/1.45 var(--sans) }
+a { color:inherit }
+.wrap { max-width:980px; margin:0 auto; padding:0 16px }
+.muted { color:var(--muted) }
+
+/* en-tête : filet double façon bord d'assiette */
+header { position:relative; overflow:hidden; min-height:200px; display:flex; align-items:flex-end; padding:0 0 18px;
+  border-bottom:1px solid var(--cobalt); box-shadow:0 3px 0 -1px var(--paper), 0 4px 0 -1px var(--cobalt-2) }
+header .decor { position:absolute; inset:0; width:100%; height:100% }
+header .wrap { position:relative; width:100% }
+.brand { color:var(--cobalt) }
+h1 { font:600 34px/1.05 var(--serif); margin:0; letter-spacing:.2px; text-shadow:0 0 12px var(--paper), 0 0 4px var(--paper) }
+h1 em { font-style:italic; font-weight:500 }
+.stats { display:flex; flex-wrap:wrap; gap:4px 18px; margin-top:10px; color:var(--muted); font-size:13px }
+.stats b { color:var(--ink); font-weight:600 }
+.stats span { background:color-mix(in srgb, var(--paper) 78%, transparent); border-radius:4px; padding:0 3px }
+
+/* barre d'outils */
+.bar { position:sticky; top:0; z-index:5; background:var(--paper); padding:10px 0; border-bottom:1px solid var(--line) }
+.bar .wrap { display:flex; flex-wrap:wrap; gap:8px; align-items:center }
+.seg { display:inline-flex; border:1px solid var(--line); border-radius:99px; overflow:hidden; background:var(--card) }
+.seg button { border:0; background:none; padding:5px 12px; font:inherit; font-size:13px; color:var(--muted); cursor:pointer }
+.seg button[aria-pressed="true"] { background:var(--cobalt); color:var(--paper) }
+.chip { border:1px solid var(--line); background:var(--card); color:var(--muted); border-radius:99px; padding:5px 11px; font:inherit; font-size:13px; cursor:pointer }
+.chip[aria-pressed="true"] { border-color:var(--cobalt); color:var(--cobalt); background:var(--wash) }
+select, input[type=number] { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:99px; padding:5px 10px; font:inherit; font-size:13px }
+input[type=number] { width:92px }
+.bar .end { margin-left:auto; display:flex; gap:6px; align-items:center }
+.sortlbl { font-size:13px; color:var(--muted); display:inline-flex; gap:6px; align-items:center }
+.icon { width:30px; height:30px; border-radius:50%; padding:0; display:inline-grid; place-items:center; font-family:var(--serif); font-size:17px; font-style:italic }
+
+/* liste */
+.count { margin:16px 0 6px; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted) }
+.item { display:grid; grid-template-columns:76px 1fr auto; gap:14px; align-items:center; padding:12px; margin-bottom:8px;
+  background:var(--card); border:1px solid var(--line); border-radius:12px; transition:border-color .15s }
+.item:hover { border-color:var(--cobalt-2) }
+[hidden] { display:none !important }
+.thumb img, .noimg { display:block; width:76px; height:76px; object-fit:cover; border-radius:8px; background:var(--wash) }
+.body { min-width:0 }
+.title { font-weight:600; text-decoration:none; display:-webkit-box; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden }
+.title:hover { color:var(--cobalt) }
+.meta { display:flex; flex-wrap:wrap; gap:2px 10px; align-items:center; font-size:12px; color:var(--muted); margin-top:2px }
+.src { font-size:10.5px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--cobalt) }
+.src.interencheres, .src.drouot { color:var(--rust) }
+.etat::before { content:""; display:inline-block; width:6px; height:6px; border-radius:50%; margin-right:5px; vertical-align:1px; background:var(--muted) }
+.etat.ok::before { background:var(--cobalt-2) } .etat.warn::before { background:#c39a3a } .etat.bad::before { background:var(--rust) }
+.comp { font-size:12.5px; margin-top:4px; color:var(--ink); opacity:.85; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden }
+.comp em { color:var(--muted) }
+.figures { text-align:right; white-space:nowrap }
+.pp { font:600 26px/1 var(--serif); color:var(--cobalt); font-variant-numeric:lining-nums tabular-nums }
+.pp small { font:12px var(--sans); color:var(--muted); margin-left:2px }
+.line { display:flex; gap:8px; justify-content:flex-end; align-items:center; margin-top:6px; font-size:12px; color:var(--muted) }
+.deal { font-weight:700; font-size:12px; border-radius:99px; padding:1px 8px; border:1px solid var(--cobalt) }
+.deal.great { background:var(--cobalt); color:var(--paper) }
+.deal.good { background:var(--wash); color:var(--cobalt) }
+.deal.fair { color:var(--cobalt); border-color:var(--line) }
+.deal.high { color:var(--rust); border-color:var(--rust) }
+.deal.unk { color:var(--muted); border-color:var(--line) }
+.note { font-size:11.5px; color:var(--muted); margin-top:3px }
+.trend { display:inline-block; font-size:11.5px; margin-top:3px; color:var(--cobalt-2); cursor:help }
+.trend.up { color:var(--rust) }
+.item.sold .pp { color:var(--ink) }
+
+/* tableau : lignes alignées sur l'en-tête de colonnes */
+.table { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:clip }
+.thead, .row { display:grid; grid-template-columns:56px minmax(0,1fr) 118px 54px 136px 88px 66px; gap:0 14px; align-items:center; padding:9px 14px }
+.thead { position:sticky; top:var(--bar-h, 57px); z-index:3; background:var(--card); border-bottom:1px solid var(--cobalt); padding-top:8px; padding-bottom:8px }
+.thead button { all:unset; cursor:pointer; font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); white-space:nowrap }
+.thead button:hover, .thead button[aria-sort] { color:var(--cobalt) }
+.thead button[aria-sort="ascending"]::after { content:" ▲"; font-size:9px }
+.thead button[aria-sort="descending"]::after { content:" ▼"; font-size:9px }
+.thead .num, .row .num { text-align:right; justify-self:end }
+.row { border-bottom:1px solid var(--line) }
+.row:last-child { border-bottom:0 }
+.row:hover { background:color-mix(in srgb, var(--wash) 45%, transparent) }
+.row .thumb img, .row .noimg { width:56px; height:56px; border-radius:7px }
+.row .title { font-size:14px }
+.row .comp { -webkit-line-clamp:1 }
+.cells { display:contents }
+.c-etat { font-size:12px; color:var(--muted) }
+.c-n { font-variant-numeric:tabular-nums } .c-n small { display:none }
+.c-price { font-variant-numeric:tabular-nums; display:flex; flex-direction:column; align-items:flex-end }
+.c-price .note, .c-price .trend { font-size:11px; margin:1px 0 0; white-space:nowrap }
+.m-only { display:none }
+.c-pp { font:600 21px/1 var(--serif); color:var(--cobalt); font-variant-numeric:lining-nums tabular-nums; white-space:nowrap }
+.c-pp small { display:none }
+
+h2 { font:600 22px var(--serif); color:var(--cobalt); margin:34px 0 4px }
+.lede { color:var(--muted); font-size:13px; margin:0 0 10px }
+details.rej { margin:28px 0 60px; font-size:13px } details.rej summary { cursor:pointer; color:var(--muted) }
+details.rej li { margin:4px 0 }
+.empty { padding:22px; text-align:center; color:var(--muted); border:1px dashed var(--line); border-radius:12px }
+
+/* panneaux : méthode et références */
+dialog { border:1px solid var(--line); border-radius:14px; background:var(--card); color:var(--ink); padding:22px 24px; max-width:min(520px, calc(100vw - 32px)) }
+dialog::backdrop { background:rgba(12,19,34,.45) }
+dialog h3 { font:600 22px var(--serif); color:var(--cobalt); margin:0 0 10px }
+dialog p { margin:0 0 10px; font-size:13.5px }
+dialog table { width:100%; border-collapse:collapse; font-size:13px }
+dialog th, dialog td { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line) }
+dialog th { font-weight:600; color:var(--muted); font-size:12px }
+dialog .close { float:right; margin:-8px -10px 0 0 }
+
+@media (max-width:760px) {
+  .thead { display:none }
+  .row { grid-template-columns:60px minmax(0,1fr); gap:6px 12px; padding:12px }
+  .row .thumb { grid-row:span 2; align-self:start }
+  .row .thumb img, .row .noimg { width:60px; height:60px }
+  .row .comp { -webkit-line-clamp:2 }
+  .cells { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; grid-column:2 }
+  .c-pp { order:-2; font-size:24px } .c-pp small { display:inline; font:12px var(--sans); color:var(--muted); margin-left:2px }
+  .c-deal { order:-1 }
+  .c-n small { display:inline }
+  .c-etat { display:none } .m-only { display:inline }
+  .cells { font-size:13px; color:var(--muted) }
+  .c-price { flex-direction:row; flex-wrap:wrap; gap:0 8px; align-items:baseline; color:var(--ink) }
+  .c-price::before { content:"· "; color:var(--muted) }
+  .c-price .note, .c-price .trend { white-space:normal }
+  .num { justify-self:auto; text-align:left }
+  .bar .end .sortlbl { display:inline-flex }
+}
+@media (min-width:761px) { .bar .end .sortlbl { display:none } }
+@media (max-width:640px) {
+  .item { grid-template-columns:60px 1fr; }
+  .thumb img, .noimg { width:60px; height:60px }
+  .figures { grid-column:2; text-align:left; display:flex; gap:12px; align-items:baseline; flex-wrap:wrap }
+  .line { justify-content:flex-start; margin:0 }
+  .bar .end { margin-left:0 }
+  h1 { font-size:26px }
+  header { min-height:150px }
+  header .decor { opacity:.4 }
+}
+</style></head><body>
+<header><svg class="decor" viewBox="0 0 1200 210" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+<style>
+.decor .c1 { fill:var(--cobalt) } .decor .c2 { fill:var(--cobalt-2) } .decor .c3 { fill:var(--cobalt-2); opacity:.55 }
+.decor .paper { fill:var(--paper) } .decor .paper-s { stroke:var(--paper); opacity:.35; stroke-linecap:round }
+.decor .stamen { stroke:var(--cobalt); stroke-linecap:round }
+.decor .branch { fill:none; stroke:var(--cobalt); stroke-linecap:round; stroke-linejoin:round }
+.decor .fan { fill:var(--wash); stroke:var(--cobalt-2); stroke-width:1.2; opacity:.9 }
+.decor .fan-rib { stroke:var(--cobalt-2); stroke-width:.8; opacity:.45 }
+.decor .wave { fill:none; stroke:var(--cobalt-2); stroke-width:1; opacity:.22 }
+.decor .wave-fill { fill:var(--paper) }
+</style>
+<g><circle cx="-44" cy="204" r="22.0" class="wave-fill wave"/><circle cx="-44" cy="204" r="15.8" class=" wave"/><circle cx="-44" cy="204" r="9.7" class=" wave"/><circle cx="0" cy="204" r="22.0" class="wave-fill wave"/><circle cx="0" cy="204" r="15.8" class=" wave"/><circle cx="0" cy="204" r="9.7" class=" wave"/><circle cx="44" cy="204" r="22.0" class="wave-fill wave"/><circle cx="44" cy="204" r="15.8" class=" wave"/><circle cx="44" cy="204" r="9.7" class=" wave"/><circle cx="88" cy="204" r="22.0" class="wave-fill wave"/><circle cx="88" cy="204" r="15.8" class=" wave"/><circle cx="88" cy="204" r="9.7" class=" wave"/><circle cx="132" cy="204" r="22.0" class="wave-fill wave"/><circle cx="132" cy="204" r="15.8" class=" wave"/><circle cx="132" cy="204" r="9.7" class=" wave"/><circle cx="176" cy="204" r="22.0" class="wave-fill wave"/><circle cx="176" cy="204" r="15.8" class=" wave"/><circle cx="176" cy="204" r="9.7" class=" wave"/><circle cx="220" cy="204" r="22.0" class="wave-fill wave"/><circle cx="220" cy="204" r="15.8" class=" wave"/><circle cx="220" cy="204" r="9.7" class=" wave"/><circle cx="264" cy="204" r="22.0" class="wave-fill wave"/><circle cx="264" cy="204" r="15.8" class=" wave"/><circle cx="264" cy="204" r="9.7" class=" wave"/><circle cx="308" cy="204" r="22.0" class="wave-fill wave"/><circle cx="308" cy="204" r="15.8" class=" wave"/><circle cx="308" cy="204" r="9.7" class=" wave"/><circle cx="352" cy="204" r="22.0" class="wave-fill wave"/><circle cx="352" cy="204" r="15.8" class=" wave"/><circle cx="352" cy="204" r="9.7" class=" wave"/><circle cx="396" cy="204" r="22.0" class="wave-fill wave"/><circle cx="396" cy="204" r="15.8" class=" wave"/><circle cx="396" cy="204" r="9.7" class=" wave"/><circle cx="440" cy="204" r="22.0" class="wave-fill wave"/><circle cx="440" cy="204" r="15.8" class=" wave"/><circle cx="440" cy="204" r="9.7" class=" wave"/><circle cx="484" cy="204" r="22.0" class="wave-fill wave"/><circle cx="484" cy="204" r="15.8" class=" wave"/><circle cx="484" cy="204" r="9.7" class=" wave"/><circle cx="528" cy="204" r="22.0" class="wave-fill wave"/><circle cx="528" cy="204" r="15.8" class=" wave"/><circle cx="528" cy="204" r="9.7" class=" wave"/><circle cx="572" cy="204" r="22.0" class="wave-fill wave"/><circle cx="572" cy="204" r="15.8" class=" wave"/><circle cx="572" cy="204" r="9.7" class=" wave"/><circle cx="616" cy="204" r="22.0" class="wave-fill wave"/><circle cx="616" cy="204" r="15.8" class=" wave"/><circle cx="616" cy="204" r="9.7" class=" wave"/><circle cx="660" cy="204" r="22.0" class="wave-fill wave"/><circle cx="660" cy="204" r="15.8" class=" wave"/><circle cx="660" cy="204" r="9.7" class=" wave"/><circle cx="704" cy="204" r="22.0" class="wave-fill wave"/><circle cx="704" cy="204" r="15.8" class=" wave"/><circle cx="704" cy="204" r="9.7" class=" wave"/><circle cx="748" cy="204" r="22.0" class="wave-fill wave"/><circle cx="748" cy="204" r="15.8" class=" wave"/><circle cx="748" cy="204" r="9.7" class=" wave"/><circle cx="792" cy="204" r="22.0" class="wave-fill wave"/><circle cx="792" cy="204" r="15.8" class=" wave"/><circle cx="792" cy="204" r="9.7" class=" wave"/><circle cx="836" cy="204" r="22.0" class="wave-fill wave"/><circle cx="836" cy="204" r="15.8" class=" wave"/><circle cx="836" cy="204" r="9.7" class=" wave"/><circle cx="880" cy="204" r="22.0" class="wave-fill wave"/><circle cx="880" cy="204" r="15.8" class=" wave"/><circle cx="880" cy="204" r="9.7" class=" wave"/><circle cx="924" cy="204" r="22.0" class="wave-fill wave"/><circle cx="924" cy="204" r="15.8" class=" wave"/><circle cx="924" cy="204" r="9.7" class=" wave"/><circle cx="968" cy="204" r="22.0" class="wave-fill wave"/><circle cx="968" cy="204" r="15.8" class=" wave"/><circle cx="968" cy="204" r="9.7" class=" wave"/><circle cx="1012" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1012" cy="204" r="15.8" class=" wave"/><circle cx="1012" cy="204" r="9.7" class=" wave"/><circle cx="1056" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1056" cy="204" r="15.8" class=" wave"/><circle cx="1056" cy="204" r="9.7" class=" wave"/><circle cx="1100" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1100" cy="204" r="15.8" class=" wave"/><circle cx="1100" cy="204" r="9.7" class=" wave"/><circle cx="1144" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1144" cy="204" r="15.8" class=" wave"/><circle cx="1144" cy="204" r="9.7" class=" wave"/><circle cx="1188" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1188" cy="204" r="15.8" class=" wave"/><circle cx="1188" cy="204" r="9.7" class=" wave"/><circle cx="1232" cy="204" r="22.0" class="wave-fill wave"/><circle cx="1232" cy="204" r="15.8" class=" wave"/><circle cx="1232" cy="204" r="9.7" class=" wave"/><circle cx="-22" cy="215" r="22.0" class="wave-fill wave"/><circle cx="-22" cy="215" r="15.8" class=" wave"/><circle cx="-22" cy="215" r="9.7" class=" wave"/><circle cx="22" cy="215" r="22.0" class="wave-fill wave"/><circle cx="22" cy="215" r="15.8" class=" wave"/><circle cx="22" cy="215" r="9.7" class=" wave"/><circle cx="66" cy="215" r="22.0" class="wave-fill wave"/><circle cx="66" cy="215" r="15.8" class=" wave"/><circle cx="66" cy="215" r="9.7" class=" wave"/><circle cx="110" cy="215" r="22.0" class="wave-fill wave"/><circle cx="110" cy="215" r="15.8" class=" wave"/><circle cx="110" cy="215" r="9.7" class=" wave"/><circle cx="154" cy="215" r="22.0" class="wave-fill wave"/><circle cx="154" cy="215" r="15.8" class=" wave"/><circle cx="154" cy="215" r="9.7" class=" wave"/><circle cx="198" cy="215" r="22.0" class="wave-fill wave"/><circle cx="198" cy="215" r="15.8" class=" wave"/><circle cx="198" cy="215" r="9.7" class=" wave"/><circle cx="242" cy="215" r="22.0" class="wave-fill wave"/><circle cx="242" cy="215" r="15.8" class=" wave"/><circle cx="242" cy="215" r="9.7" class=" wave"/><circle cx="286" cy="215" r="22.0" class="wave-fill wave"/><circle cx="286" cy="215" r="15.8" class=" wave"/><circle cx="286" cy="215" r="9.7" class=" wave"/><circle cx="330" cy="215" r="22.0" class="wave-fill wave"/><circle cx="330" cy="215" r="15.8" class=" wave"/><circle cx="330" cy="215" r="9.7" class=" wave"/><circle cx="374" cy="215" r="22.0" class="wave-fill wave"/><circle cx="374" cy="215" r="15.8" class=" wave"/><circle cx="374" cy="215" r="9.7" class=" wave"/><circle cx="418" cy="215" r="22.0" class="wave-fill wave"/><circle cx="418" cy="215" r="15.8" class=" wave"/><circle cx="418" cy="215" r="9.7" class=" wave"/><circle cx="462" cy="215" r="22.0" class="wave-fill wave"/><circle cx="462" cy="215" r="15.8" class=" wave"/><circle cx="462" cy="215" r="9.7" class=" wave"/><circle cx="506" cy="215" r="22.0" class="wave-fill wave"/><circle cx="506" cy="215" r="15.8" class=" wave"/><circle cx="506" cy="215" r="9.7" class=" wave"/><circle cx="550" cy="215" r="22.0" class="wave-fill wave"/><circle cx="550" cy="215" r="15.8" class=" wave"/><circle cx="550" cy="215" r="9.7" class=" wave"/><circle cx="594" cy="215" r="22.0" class="wave-fill wave"/><circle cx="594" cy="215" r="15.8" class=" wave"/><circle cx="594" cy="215" r="9.7" class=" wave"/><circle cx="638" cy="215" r="22.0" class="wave-fill wave"/><circle cx="638" cy="215" r="15.8" class=" wave"/><circle cx="638" cy="215" r="9.7" class=" wave"/><circle cx="682" cy="215" r="22.0" class="wave-fill wave"/><circle cx="682" cy="215" r="15.8" class=" wave"/><circle cx="682" cy="215" r="9.7" class=" wave"/><circle cx="726" cy="215" r="22.0" class="wave-fill wave"/><circle cx="726" cy="215" r="15.8" class=" wave"/><circle cx="726" cy="215" r="9.7" class=" wave"/><circle cx="770" cy="215" r="22.0" class="wave-fill wave"/><circle cx="770" cy="215" r="15.8" class=" wave"/><circle cx="770" cy="215" r="9.7" class=" wave"/><circle cx="814" cy="215" r="22.0" class="wave-fill wave"/><circle cx="814" cy="215" r="15.8" class=" wave"/><circle cx="814" cy="215" r="9.7" class=" wave"/><circle cx="858" cy="215" r="22.0" class="wave-fill wave"/><circle cx="858" cy="215" r="15.8" class=" wave"/><circle cx="858" cy="215" r="9.7" class=" wave"/><circle cx="902" cy="215" r="22.0" class="wave-fill wave"/><circle cx="902" cy="215" r="15.8" class=" wave"/><circle cx="902" cy="215" r="9.7" class=" wave"/><circle cx="946" cy="215" r="22.0" class="wave-fill wave"/><circle cx="946" cy="215" r="15.8" class=" wave"/><circle cx="946" cy="215" r="9.7" class=" wave"/><circle cx="990" cy="215" r="22.0" class="wave-fill wave"/><circle cx="990" cy="215" r="15.8" class=" wave"/><circle cx="990" cy="215" r="9.7" class=" wave"/><circle cx="1034" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1034" cy="215" r="15.8" class=" wave"/><circle cx="1034" cy="215" r="9.7" class=" wave"/><circle cx="1078" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1078" cy="215" r="15.8" class=" wave"/><circle cx="1078" cy="215" r="9.7" class=" wave"/><circle cx="1122" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1122" cy="215" r="15.8" class=" wave"/><circle cx="1122" cy="215" r="9.7" class=" wave"/><circle cx="1166" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1166" cy="215" r="15.8" class=" wave"/><circle cx="1166" cy="215" r="9.7" class=" wave"/><circle cx="1210" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1210" cy="215" r="15.8" class=" wave"/><circle cx="1210" cy="215" r="9.7" class=" wave"/><circle cx="1254" cy="215" r="22.0" class="wave-fill wave"/><circle cx="1254" cy="215" r="15.8" class=" wave"/><circle cx="1254" cy="215" r="9.7" class=" wave"/><circle cx="-44" cy="226" r="22.0" class="wave-fill wave"/><circle cx="-44" cy="226" r="15.8" class=" wave"/><circle cx="-44" cy="226" r="9.7" class=" wave"/><circle cx="0" cy="226" r="22.0" class="wave-fill wave"/><circle cx="0" cy="226" r="15.8" class=" wave"/><circle cx="0" cy="226" r="9.7" class=" wave"/><circle cx="44" cy="226" r="22.0" class="wave-fill wave"/><circle cx="44" cy="226" r="15.8" class=" wave"/><circle cx="44" cy="226" r="9.7" class=" wave"/><circle cx="88" cy="226" r="22.0" class="wave-fill wave"/><circle cx="88" cy="226" r="15.8" class=" wave"/><circle cx="88" cy="226" r="9.7" class=" wave"/><circle cx="132" cy="226" r="22.0" class="wave-fill wave"/><circle cx="132" cy="226" r="15.8" class=" wave"/><circle cx="132" cy="226" r="9.7" class=" wave"/><circle cx="176" cy="226" r="22.0" class="wave-fill wave"/><circle cx="176" cy="226" r="15.8" class=" wave"/><circle cx="176" cy="226" r="9.7" class=" wave"/><circle cx="220" cy="226" r="22.0" class="wave-fill wave"/><circle cx="220" cy="226" r="15.8" class=" wave"/><circle cx="220" cy="226" r="9.7" class=" wave"/><circle cx="264" cy="226" r="22.0" class="wave-fill wave"/><circle cx="264" cy="226" r="15.8" class=" wave"/><circle cx="264" cy="226" r="9.7" class=" wave"/><circle cx="308" cy="226" r="22.0" class="wave-fill wave"/><circle cx="308" cy="226" r="15.8" class=" wave"/><circle cx="308" cy="226" r="9.7" class=" wave"/><circle cx="352" cy="226" r="22.0" class="wave-fill wave"/><circle cx="352" cy="226" r="15.8" class=" wave"/><circle cx="352" cy="226" r="9.7" class=" wave"/><circle cx="396" cy="226" r="22.0" class="wave-fill wave"/><circle cx="396" cy="226" r="15.8" class=" wave"/><circle cx="396" cy="226" r="9.7" class=" wave"/><circle cx="440" cy="226" r="22.0" class="wave-fill wave"/><circle cx="440" cy="226" r="15.8" class=" wave"/><circle cx="440" cy="226" r="9.7" class=" wave"/><circle cx="484" cy="226" r="22.0" class="wave-fill wave"/><circle cx="484" cy="226" r="15.8" class=" wave"/><circle cx="484" cy="226" r="9.7" class=" wave"/><circle cx="528" cy="226" r="22.0" class="wave-fill wave"/><circle cx="528" cy="226" r="15.8" class=" wave"/><circle cx="528" cy="226" r="9.7" class=" wave"/><circle cx="572" cy="226" r="22.0" class="wave-fill wave"/><circle cx="572" cy="226" r="15.8" class=" wave"/><circle cx="572" cy="226" r="9.7" class=" wave"/><circle cx="616" cy="226" r="22.0" class="wave-fill wave"/><circle cx="616" cy="226" r="15.8" class=" wave"/><circle cx="616" cy="226" r="9.7" class=" wave"/><circle cx="660" cy="226" r="22.0" class="wave-fill wave"/><circle cx="660" cy="226" r="15.8" class=" wave"/><circle cx="660" cy="226" r="9.7" class=" wave"/><circle cx="704" cy="226" r="22.0" class="wave-fill wave"/><circle cx="704" cy="226" r="15.8" class=" wave"/><circle cx="704" cy="226" r="9.7" class=" wave"/><circle cx="748" cy="226" r="22.0" class="wave-fill wave"/><circle cx="748" cy="226" r="15.8" class=" wave"/><circle cx="748" cy="226" r="9.7" class=" wave"/><circle cx="792" cy="226" r="22.0" class="wave-fill wave"/><circle cx="792" cy="226" r="15.8" class=" wave"/><circle cx="792" cy="226" r="9.7" class=" wave"/><circle cx="836" cy="226" r="22.0" class="wave-fill wave"/><circle cx="836" cy="226" r="15.8" class=" wave"/><circle cx="836" cy="226" r="9.7" class=" wave"/><circle cx="880" cy="226" r="22.0" class="wave-fill wave"/><circle cx="880" cy="226" r="15.8" class=" wave"/><circle cx="880" cy="226" r="9.7" class=" wave"/><circle cx="924" cy="226" r="22.0" class="wave-fill wave"/><circle cx="924" cy="226" r="15.8" class=" wave"/><circle cx="924" cy="226" r="9.7" class=" wave"/><circle cx="968" cy="226" r="22.0" class="wave-fill wave"/><circle cx="968" cy="226" r="15.8" class=" wave"/><circle cx="968" cy="226" r="9.7" class=" wave"/><circle cx="1012" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1012" cy="226" r="15.8" class=" wave"/><circle cx="1012" cy="226" r="9.7" class=" wave"/><circle cx="1056" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1056" cy="226" r="15.8" class=" wave"/><circle cx="1056" cy="226" r="9.7" class=" wave"/><circle cx="1100" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1100" cy="226" r="15.8" class=" wave"/><circle cx="1100" cy="226" r="9.7" class=" wave"/><circle cx="1144" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1144" cy="226" r="15.8" class=" wave"/><circle cx="1144" cy="226" r="9.7" class=" wave"/><circle cx="1188" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1188" cy="226" r="15.8" class=" wave"/><circle cx="1188" cy="226" r="9.7" class=" wave"/><circle cx="1232" cy="226" r="22.0" class="wave-fill wave"/><circle cx="1232" cy="226" r="15.8" class=" wave"/><circle cx="1232" cy="226" r="9.7" class=" wave"/></g>
+<g><path class="fan" d="M645.0 168.4 A160 160 0 0 1 935.0 168.4 L840.8 212.3 A56 56 0 0 0 739.2 212.3 Z"/><line class="fan-rib" x1="739.2" y1="212.3" x2="645.0" y2="168.4"/><line class="fan-rib" x1="744.1" y1="203.9" x2="658.9" y2="144.2"/><line class="fan-rib" x1="750.4" y1="196.4" x2="676.9" y2="122.9"/><line class="fan-rib" x1="757.9" y1="190.1" x2="698.2" y2="104.9"/><line class="fan-rib" x1="766.3" y1="185.2" x2="722.4" y2="91.0"/><line class="fan-rib" x1="775.5" y1="181.9" x2="748.6" y2="81.5"/><line class="fan-rib" x1="785.1" y1="180.2" x2="776.1" y2="76.6"/><line class="fan-rib" x1="794.9" y1="180.2" x2="803.9" y2="76.6"/><line class="fan-rib" x1="804.5" y1="181.9" x2="831.4" y2="81.5"/><line class="fan-rib" x1="813.7" y1="185.2" x2="857.6" y2="91.0"/><line class="fan-rib" x1="822.1" y1="190.1" x2="881.8" y2="104.9"/><line class="fan-rib" x1="829.6" y1="196.4" x2="903.1" y2="122.9"/><line class="fan-rib" x1="835.9" y1="203.9" x2="921.1" y2="144.2"/><line class="fan-rib" x1="840.8" y1="212.3" x2="935.0" y2="168.4"/><path class="fan-rib" fill="none" d="M657.7 174.3 A146 146 0 0 1 922.3 174.3"/><g class="c3"><circle cx="707.8" cy="137.8" r="3.5"/><circle cx="707.6" cy="132.7" r="3.5"/><circle cx="712.4" cy="131.0" r="3.5"/><circle cx="715.5" cy="135.0" r="3.5"/><circle cx="712.7" cy="139.2" r="3.5"/></g><circle cx="711.1953311583158" cy="135.13462353833955" r="2.1" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="711.2" y1="135.1" x2="711.1" y2="132.2"/><line x1="711.2" y1="135.1" x2="714.0" y2="134.1"/><line x1="711.2" y1="135.1" x2="713.0" y2="137.5"/><line x1="711.2" y1="135.1" x2="709.6" y2="137.6"/><line x1="711.2" y1="135.1" x2="708.4" y2="134.3"/></g><circle cx="711.1953311583158" cy="135.13462353833955" r="0.8" class="c1"/><g class="c3"><circle cx="770.1" cy="125.7" r="3.5"/><circle cx="772.5" cy="121.2" r="3.5"/><circle cx="777.5" cy="122.1" r="3.5"/><circle cx="778.2" cy="127.1" r="3.5"/><circle cx="773.7" cy="129.4" r="3.5"/></g><circle cx="774.4126126924726" cy="125.08997630094413" r="2.1" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="774.4" y1="125.1" x2="775.8" y2="122.5"/><line x1="774.4" y1="125.1" x2="777.3" y2="125.6"/><line x1="774.4" y1="125.1" x2="774.8" y2="128.0"/><line x1="774.4" y1="125.1" x2="771.8" y2="126.4"/><line x1="774.4" y1="125.1" x2="772.4" y2="123.0"/></g><circle cx="774.4126126924726" cy="125.08997630094413" r="0.8" class="c1"/><g class="c3"><circle cx="852.2" cy="119.5" r="3.5"/><circle cx="856.9" cy="117.4" r="3.5"/><circle cx="860.3" cy="121.2" r="3.5"/><circle cx="857.8" cy="125.6" r="3.5"/><circle cx="852.8" cy="124.6" r="3.5"/></g><circle cx="856.0" cy="121.68464670045411" r="2.1" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="856.0" y1="121.7" x2="858.7" y2="120.5"/><line x1="856.0" y1="121.7" x2="858.0" y2="123.9"/><line x1="856.0" y1="121.7" x2="854.5" y2="124.2"/><line x1="856.0" y1="121.7" x2="853.1" y2="121.1"/><line x1="856.0" y1="121.7" x2="855.7" y2="118.8"/></g><circle cx="856.0" cy="121.68464670045411" r="0.8" class="c1"/></g>
+<g><g transform="rotate(-4 28 215)"><rect class="c2" x="21.5" y="-15" width="13" height="230" rx="5.2"/><rect class="c1" x="19.9" y="167.4" width="16.1" height="3.2" rx="1.6"/><line class="paper-s" x1="26.1" y1="129.0" x2="26.1" y2="163.0" stroke-width="1.6"/><rect class="c1" x="19.9" y="121.4" width="16.1" height="3.2" rx="1.6"/><line class="paper-s" x1="26.1" y1="83.0" x2="26.1" y2="117.0" stroke-width="1.6"/><rect class="c1" x="19.9" y="75.4" width="16.1" height="3.2" rx="1.6"/><line class="paper-s" x1="26.1" y1="37.0" x2="26.1" y2="71.0" stroke-width="1.6"/><rect class="c1" x="19.9" y="29.4" width="16.1" height="3.2" rx="1.6"/><line class="paper-s" x1="26.1" y1="-9.0" x2="26.1" y2="25.0" stroke-width="1.6"/></g><g transform="rotate(3 62 215)"><rect class="c2" x="57.0" y="25" width="10" height="190" rx="4.0"/><rect class="c1" x="55.8" y="175.4" width="12.4" height="3.2" rx="1.6"/><line class="paper-s" x1="60.5" y1="145.0" x2="60.5" y2="171.0" stroke-width="1.2"/><rect class="c1" x="55.8" y="137.4" width="12.4" height="3.2" rx="1.6"/><line class="paper-s" x1="60.5" y1="107.0" x2="60.5" y2="133.0" stroke-width="1.2"/><rect class="c1" x="55.8" y="99.4" width="12.4" height="3.2" rx="1.6"/><line class="paper-s" x1="60.5" y1="69.0" x2="60.5" y2="95.0" stroke-width="1.2"/><rect class="c1" x="55.8" y="61.4" width="12.4" height="3.2" rx="1.6"/><line class="paper-s" x1="60.5" y1="31.0" x2="60.5" y2="57.0" stroke-width="1.2"/></g><g transform="rotate(-2 92 215)"><rect class="c2" x="88.0" y="65" width="8" height="150" rx="3.2"/><rect class="c1" x="87.0" y="183.4" width="9.9" height="3.2" rx="1.6"/><line class="paper-s" x1="90.8" y1="161.0" x2="90.8" y2="179.0" stroke-width="1.0"/><rect class="c1" x="87.0" y="153.4" width="9.9" height="3.2" rx="1.6"/><line class="paper-s" x1="90.8" y1="131.0" x2="90.8" y2="149.0" stroke-width="1.0"/><rect class="c1" x="87.0" y="123.4" width="9.9" height="3.2" rx="1.6"/><line class="paper-s" x1="90.8" y1="101.0" x2="90.8" y2="119.0" stroke-width="1.0"/><rect class="c1" x="87.0" y="93.4" width="9.9" height="3.2" rx="1.6"/><line class="paper-s" x1="90.8" y1="71.0" x2="90.8" y2="89.0" stroke-width="1.0"/></g><path class="c2" transform="translate(40 52) rotate(-28)" d="M0 0 C21 -9.1 52 -7.3 70 0 C52 7.3 21 9.1 0 0Z"/><path class="c2" transform="translate(40 52) rotate(8)" d="M0 0 C17 -7.5 44 -6.0 58 0 C44 6.0 17 7.5 0 0Z"/><path class="c1" transform="translate(66 92) rotate(-42)" d="M0 0 C19 -8.1 46 -6.4 62 0 C46 6.4 19 8.1 0 0Z"/><path class="c2" transform="translate(66 92) rotate(2)" d="M0 0 C16 -7.0 40 -5.6 54 0 C40 5.6 16 7.0 0 0Z"/><path class="c1" transform="translate(90 120) rotate(-18)" d="M0 0 C15 -6.5 38 -5.2 50 0 C38 5.2 15 6.5 0 0Z"/><path class="c2" transform="translate(22 120) rotate(196)" d="M0 0 C14 -6.2 36 -5.0 48 0 C36 5.0 14 6.2 0 0Z"/><path class="c2" transform="translate(98 150) rotate(22)" d="M0 0 C13 -5.7 33 -4.6 44 0 C33 4.6 13 5.7 0 0Z"/></g>
+<g><path class="c1" transform="translate(668 30) rotate(-12) scale(0.95)" d="M0 1 C3 -1.5 8 -2 12 -1 C18 -9 26 -17 38 -21 C30 -14 25 -7 22 -1 C26 -1 30 0 33 1.2 L56 -5 L41 3 L56 11.5 L33 5 C30 6 26 6.5 22 5.5 C25 11 30 17 38 23 C26 19 18 12 12 4 C8 5 3 4 0 1 Z"/><path class="c1" transform="translate(726 54) rotate(6) scale(0.66)" d="M0 1 C3 -1.5 8 -2 12 -1 C18 -9 26 -17 38 -21 C30 -14 25 -7 22 -1 C26 -1 30 0 33 1.2 L56 -5 L41 3 L56 11.5 L33 5 C30 6 26 6.5 22 5.5 C25 11 30 17 38 23 C26 19 18 12 12 4 C8 5 3 4 0 1 Z"/><path class="c1" transform="translate(618 58) rotate(-22) scale(0.5)" d="M0 1 C3 -1.5 8 -2 12 -1 C18 -9 26 -17 38 -21 C30 -14 25 -7 22 -1 C26 -1 30 0 33 1.2 L56 -5 L41 3 L56 11.5 L33 5 C30 6 26 6.5 22 5.5 C25 11 30 17 38 23 C26 19 18 12 12 4 C8 5 3 4 0 1 Z"/></g>
+<g><path d="M1215 18 C1150 30 1105 22 1060 52 C1020 78 985 74 950 100 C925 118 905 120 880 128" class="branch" stroke-width="9"/><path d="M1060 52 C1050 85 1065 110 1050 145" class="branch" stroke-width="5"/><path d="M985 78 C970 55 975 35 960 20" class="branch" stroke-width="4"/><path d="M950 100 C935 135 905 150 900 175" class="branch" stroke-width="4"/><path d="M1130 26 C1120 60 1140 80 1135 105" class="branch" stroke-width="4"/><path d="M880 128 C860 130 845 140 832 152" class="branch" stroke-width="3"/><path d="M832 152 C822 158 815 160 806 160" class="branch" stroke-width="1.6"/><path d="M1050 145 C1047 158 1052 166 1049 176" class="branch" stroke-width="2"/><path d="M960 20 C955 12 950 9 944 6" class="branch" stroke-width="1.6"/><path d="M900 175 C898 185 902 192 898 200" class="branch" stroke-width="1.6"/><path d="M1135 105 C1133 118 1138 126 1134 134" class="branch" stroke-width="2"/><path d="M1095 38 C1100 20 1094 10 1098 0" class="branch" stroke-width="2.5"/><circle cx="1018" cy="70" r="5" class="c1"/><circle cx="1016.5" cy="68.5" r="1.8" class="paper" opacity=".5"/><circle cx="1104" cy="34" r="4.5" class="c1"/><circle cx="1102.7" cy="32.6" r="1.6" class="paper" opacity=".5"/><circle cx="930" cy="130" r="4" class="c1"/><circle cx="928.8" cy="128.8" r="1.4" class="paper" opacity=".5"/><circle cx="1052" cy="126" r="4.5" class="c1"/><circle cx="1050.7" cy="124.7" r="1.6" class="paper" opacity=".5"/><circle cx="866" cy="133" r="3.5" class="c1"/><circle cx="865.0" cy="131.9" r="1.2" class="paper" opacity=".5"/><circle cx="1150" cy="76" r="4" class="c1"/><circle cx="1148.8" cy="74.8" r="1.4" class="paper" opacity=".5"/><g class="c1"><circle cx="1053.8" cy="47.6" r="8.5"/><circle cx="1062.4" cy="56.5" r="8.5"/><circle cx="1056.6" cy="67.5" r="8.5"/><circle cx="1044.4" cy="65.3" r="8.5"/><circle cx="1042.7" cy="53.1" r="8.5"/></g><circle cx="1052" cy="58" r="5.1" class="paper"/><g class="stamen" stroke-width="1.2"><line x1="1052.0" y1="58.0" x2="1057.0" y2="63.1"/><line x1="1052.0" y1="58.0" x2="1048.6" y2="64.3"/><line x1="1052.0" y1="58.0" x2="1045.0" y2="56.8"/><line x1="1052.0" y1="58.0" x2="1051.0" y2="50.9"/><line x1="1052.0" y1="58.0" x2="1058.4" y2="54.9"/></g><circle cx="1052" cy="58" r="2.0" class="c1"/><g class="c1"><circle cx="990.6" cy="75.4" r="7.0"/><circle cx="993.0" cy="85.3" r="7.0"/><circle cx="984.4" cy="90.7" r="7.0"/><circle cx="976.6" cy="84.1" r="7.0"/><circle cx="980.4" cy="74.6" r="7.0"/></g><circle cx="985" cy="82" r="4.2" class="paper"/><g class="stamen" stroke-width="1.0"><line x1="985.0" y1="82.0" x2="986.4" y2="87.7"/><line x1="985.0" y1="82.0" x2="980.0" y2="85.1"/><line x1="985.0" y1="82.0" x2="980.5" y2="78.2"/><line x1="985.0" y1="82.0" x2="987.2" y2="76.5"/><line x1="985.0" y1="82.0" x2="990.9" y2="82.4"/></g><circle cx="985" cy="82" r="1.7" class="c1"/><g class="c1"><circle cx="1135.1" cy="94.9" r="7.5"/><circle cx="1145.1" cy="99.3" r="7.5"/><circle cx="1143.9" cy="110.2" r="7.5"/><circle cx="1133.2" cy="112.5" r="7.5"/><circle cx="1127.8" cy="103.0" r="7.5"/></g><circle cx="1137" cy="104" r="4.5" class="paper"/><g class="stamen" stroke-width="1.1"><line x1="1137.0" y1="104.0" x2="1142.8" y2="106.6"/><line x1="1137.0" y1="104.0" x2="1136.3" y2="110.3"/><line x1="1137.0" y1="104.0" x2="1130.8" y2="105.3"/><line x1="1137.0" y1="104.0" x2="1133.8" y2="98.5"/><line x1="1137.0" y1="104.0" x2="1141.2" y2="99.3"/></g><circle cx="1137" cy="104" r="1.8" class="c1"/><g class="c1"><circle cx="905.4" cy="162.7" r="6.5"/><circle cx="910.0" cy="171.0" r="6.5"/><circle cx="903.5" cy="177.9" r="6.5"/><circle cx="895.0" cy="173.9" r="6.5"/><circle cx="896.1" cy="164.5" r="6.5"/></g><circle cx="902" cy="170" r="3.9" class="paper"/><g class="stamen" stroke-width="0.9"><line x1="902.0" y1="170.0" x2="904.6" y2="174.8"/><line x1="902.0" y1="170.0" x2="898.3" y2="174.0"/><line x1="902.0" y1="170.0" x2="897.1" y2="167.7"/><line x1="902.0" y1="170.0" x2="902.7" y2="164.6"/><line x1="902.0" y1="170.0" x2="907.4" y2="169.0"/></g><circle cx="902" cy="170" r="1.6" class="c1"/><g class="c2"><circle cx="948.6" cy="96.2" r="5.5"/><circle cx="954.6" cy="101.5" r="5.5"/><circle cx="951.5" cy="108.8" r="5.5"/><circle cx="943.5" cy="108.1" r="5.5"/><circle cx="941.7" cy="100.3" r="5.5"/></g><circle cx="948" cy="103" r="3.3" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="948.0" y1="103.0" x2="951.5" y2="106.0"/><line x1="948.0" y1="103.0" x2="946.2" y2="107.3"/><line x1="948.0" y1="103.0" x2="943.4" y2="102.6"/><line x1="948.0" y1="103.0" x2="947.0" y2="98.5"/><line x1="948.0" y1="103.0" x2="952.0" y2="100.6"/></g><circle cx="948" cy="103" r="1.3" class="c1"/><g class="c2"><circle cx="1089.4" cy="144.3" r="6.0"/><circle cx="1088.5" cy="153.0" r="6.0"/><circle cx="1080.0" cy="154.8" r="6.0"/><circle cx="1075.6" cy="147.2" r="6.0"/><circle cx="1081.5" cy="140.7" r="6.0"/></g><circle cx="1083" cy="148" r="3.6" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="1083.0" y1="148.0" x2="1082.5" y2="153.0"/><line x1="1083.0" y1="148.0" x2="1078.1" y2="149.0"/><line x1="1083.0" y1="148.0" x2="1080.5" y2="143.6"/><line x1="1083.0" y1="148.0" x2="1086.4" y2="144.3"/><line x1="1083.0" y1="148.0" x2="1087.6" y2="150.0"/></g><circle cx="1083" cy="148" r="1.4" class="c1"/><g class="c2"><circle cx="1174.3" cy="26.9" r="6.0"/><circle cx="1179.4" cy="34.0" r="6.0"/><circle cx="1174.3" cy="41.1" r="6.0"/><circle cx="1166.0" cy="38.4" r="6.0"/><circle cx="1166.0" cy="29.6" r="6.0"/></g><circle cx="1172" cy="34" r="3.6" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="1172.0" y1="34.0" x2="1175.0" y2="38.1"/><line x1="1172.0" y1="34.0" x2="1169.0" y2="38.1"/><line x1="1172.0" y1="34.0" x2="1167.2" y2="32.4"/><line x1="1172.0" y1="34.0" x2="1172.0" y2="29.0"/><line x1="1172.0" y1="34.0" x2="1176.8" y2="32.4"/></g><circle cx="1172" cy="34" r="1.4" class="c1"/><g class="c1"><circle cx="841.1" cy="144.6" r="5.0"/><circle cx="844.1" cy="151.3" r="5.0"/><circle cx="838.6" cy="156.2" r="5.0"/><circle cx="832.3" cy="152.5" r="5.0"/><circle cx="833.9" cy="145.4" r="5.0"/></g><circle cx="838" cy="150" r="3.0" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="838.0" y1="150.0" x2="839.7" y2="153.8"/><line x1="838.0" y1="150.0" x2="834.9" y2="152.8"/><line x1="838.0" y1="150.0" x2="834.4" y2="147.9"/><line x1="838.0" y1="150.0" x2="838.9" y2="145.9"/><line x1="838.0" y1="150.0" x2="842.2" y2="149.6"/></g><circle cx="838" cy="150" r="1.2" class="c1"/><g class="c2"><circle cx="966.7" cy="18.0" r="5.0"/><circle cx="967.3" cy="25.3" r="5.0"/><circle cx="960.5" cy="28.0" r="5.0"/><circle cx="955.8" cy="22.4" r="5.0"/><circle cx="959.7" cy="16.3" r="5.0"/></g><circle cx="962" cy="22" r="3.0" class="paper"/><g class="stamen" stroke-width="0.8"><line x1="962.0" y1="22.0" x2="962.3" y2="26.2"/><line x1="962.0" y1="22.0" x2="958.1" y2="23.6"/><line x1="962.0" y1="22.0" x2="959.3" y2="18.8"/><line x1="962.0" y1="22.0" x2="964.2" y2="18.4"/><line x1="962.0" y1="22.0" x2="966.1" y2="23.0"/></g><circle cx="962" cy="22" r="1.2" class="c1"/></g>
+</svg><div class="wrap">
+  <div class="brand"><h1>Service <em>Japon</em> · Creil &amp; Montereau</h1></div>
+  <div class="stats"><span><b>79</b> annonces</span><span><b>0</b> lots aux enchères</span>
+    <span>médiane <b>30 €</b>/pièce</span><span><b>0</b> adjugés suivis</span>
+    <span>mis à jour le 24/10 à 08:57</span></div>
+</div></header>
+
+<div class="bar"><div class="wrap">
+  <div class="seg" id="f-source" role="group" aria-label="Source">
+    <button aria-pressed="true" data-v="">Tout</button><button aria-pressed="false" data-v="leboncoin">leboncoin</button><button aria-pressed="false" data-v="encheres">Enchères</button>
+  </div>
+  <select id="f-type" aria-label="Type de pièce"><option value="">Toutes pièces</option><option value="assiette creuse">assiette creuse</option><option value="assiette plate">assiette plate</option><option value="assiette à dessert">assiette à dessert</option><option value="autre">autre</option><option value="bol">bol</option><option value="compotier / plat sur pied">compotier / plat sur pied</option><option value="coquetier">coquetier</option><option value="couvercle">couvercle</option><option value="plat ovale">plat ovale</option><option value="plat rond">plat rond</option><option value="pot à lait / crème">pot à lait / crème</option><option value="ravier">ravier</option><option value="saladier">saladier</option><option value="saucière">saucière</option><option value="soucoupe">soucoupe</option><option value="soupière / légumier">soupière / légumier</option><option value="sucrier / moutardier">sucrier / moutardier</option><option value="tasse">tasse</option><option value="théière / cafetière">théière / cafetière</option></select>
+  <button class="chip" id="f-cond" aria-pressed="false">Sans fêle</button>
+  <button class="chip" id="f-lots" aria-pressed="false">Lots</button>
+  <input type="number" id="f-max" min="0" step="10" placeholder="Prix max" aria-label="Prix maximum">
+  <div class="end">
+    <label class="sortlbl">Trier <select id="sort" aria-label="Trier par"><option value="ratio">meilleure affaire</option>
+      <option value="pp">€/pièce croissant</option><option value="price">prix croissant</option>
+      <option value="price-desc">prix décroissant</option><option value="date">plus récent</option></select></label>
+    <button class="chip icon" data-open="refs" title="Prix de référence">€</button>
+    <button class="chip icon" data-open="method" title="Comment lire cette page">i</button>
+  </div>
+</div></div>
+
+<main class="wrap">
+  <div class="count" id="count"></div>
+  <div class="table">
+    <div class="thead" role="row">
+      <span></span>
+      <button data-key="date" title="Trier par date">Annonce</button>
+      <button data-key="rank" title="Trier par état">État</button>
+      <button class="num" data-key="n" title="Trier par nombre de pièces">Pièces</button>
+      <button class="num" data-key="price" title="Trier par prix">Prix</button>
+      <button class="num" data-key="pp" title="Trier par prix à la pièce">€/pièce</button>
+      <button class="num" data-key="ratio" title="Valeur estimée ÷ prix demandé">Affaire</button>
+    </div>
+    <div id="list"><article class="row" data-ratio="5.61" data-pp="3.3333333333333335"
+  data-price="10" data-n="3" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-05-16 17:47:15">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/antiquites/3199295275" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/28/49/85/284985c25e8fb33ad396aca6fa61cd344bd307db.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/antiquites/3199295275" target="_blank" rel="noopener">Lot 3 Assiettes en faience Creil &amp; Montereau - Modèle Japon - XIXe siècle</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Brieuc · 16/05</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">3 assiette plate — <em>Prix très bas pour 3 assiettes; vérifier si 10 € est par pièce.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">10 €</div>
+    <div class="c-pp num">3 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 56 € pour 10 € demandés">×5,6</span></div>
+  </div>
+</article><article class="row" data-ratio="2.8125" data-pp="6.666666666666667"
+  data-price="20" data-n="3" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="pot à lait / crème" data-date="2026-10-07 12:11:13">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3283851933" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/55/7f/24/557f24c4b72d21e502433ded93840aee6100127b.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3283851933" target="_blank" rel="noopener">Lot de 3 pots à creme anciens de Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Basse-Goulaine · 07/10</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">3 pot à lait / crème — <em>Petits pots 7 cm ; un a anse écornée (manque 1 cm) et égrenure au talon.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">20 €</div>
+    <div class="c-pp num">7 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 56 € pour 20 € demandés">×2,8</span></div>
+  </div>
+</article><article class="row" data-ratio="2.35" data-pp="10.0"
+  data-price="10" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-08-16 16:53:55">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3251157507" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/51/d1/90/51d190b545025b416d95f012e15207aae42d466d.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3251157507" target="_blank" rel="noopener">Assiette / plat sur pied Creil &amp; Montereau &quot;JAPON&quot; - Service Claude Monet Giverny - XIXe</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Crozon · 16/08</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Assiette sur pied 23,5 cm, fêlure ancienne traversante, jaunissement</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">10 €</div>
+    <div class="c-pp num">10 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 24 € pour 10 € demandés">×2,4</span></div>
+  </div>
+</article><article class="row" data-ratio="2.2" data-pp="10.0"
+  data-price="10" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-03-28 17:14:01">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3169831541" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/be/4e/b1/be4eb16dc5991c2b61ff202f4ec083e77c52fefd.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3169831541" target="_blank" rel="noopener">Assiette en faïence Creil et Montereau 19ème Décor bleu modèle Japon Monet</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Baurech · 28/03</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 assiette plate — <em>Sans estampille, défaut d&#x27;émaillage.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">10 €</div>
+    <div class="c-pp num">10 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 22 € pour 10 € demandés">×2,2</span></div>
+  </div>
+</article><article class="row" data-ratio="1.9345999999999999" data-pp="12.195121951219512"
+  data-price="500" data-n="41" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="assiette creuse|assiette plate|compotier / plat sur pied|pot à lait / crème|saucière|soucoupe|soupière / légumier|tasse|théière / cafetière" data-date="2025-06-02 15:08:47">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3000300930" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/b8/52/91/b85291ca0259cbd10d829da9d945c5511e99bdae.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3000300930" target="_blank" rel="noopener">Service faience creil montereau &quot;japon&quot; c. Monet</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Nantes · 02/06</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 soupière / légumier · 2 compotier / plat sur pied · 1 saucière · 5 pot à lait / crème · 12 assiette plate · 7 assiette creuse · 1 théière / cafetière · 6 tasse · 6 soucoupe — <em>Lot varié vendu tel quel, imperfections possibles ; théière et crémier sans couvercle ; pas d&#x27;envoi.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">41<small> p.</small></div>
+    <div class="c-price num">500 €</div>
+    <div class="c-pp num">12 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 967 € pour 500 € demandés">×1,9</span></div>
+  </div>
+</article><article class="row" data-ratio="1.65" data-pp="10.0"
+  data-price="10" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2025-03-25 09:58:58">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/2960116438" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/db/df/04/dbdf0403892f285956134f95723ee5675abe7d5f.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/2960116438" target="_blank" rel="noopener">Creil et Montreau assiette Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Tarare · 25/03</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate — <em>Assiette 22,5 cm, un éclat ; sans fêle.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">10 €</div>
+    <div class="c-pp num">10 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 16 € pour 10 € demandés">×1,6</span></div>
+  </div>
+</article><article class="row" data-ratio="1.65" data-pp="10.0"
+  data-price="10" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-09-18 20:37:39">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272187804" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/64/cc/9b/64cc9b5d49f78673bd336f1fa202c2b85c0cd2d6.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272187804" target="_blank" rel="noopener">Assiette Creil Montereau Japon 24 cm</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 18/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate — <em>24 cm, éclats visibles sur les photos; prix bas.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">10 €</div>
+    <div class="c-pp num">10 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 16 € pour 10 € demandés">×1,6</span></div>
+  </div>
+</article><article class="row" data-ratio="1.5979999999999999" data-pp="25.0"
+  data-price="25" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2025-11-09 18:13:16">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3089891942" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/4a/1c/f5/4a1cf554d1d82342375f3df5923ec6c6624abcea.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3089891942" target="_blank" rel="noopener">Compotier en terre de fer &quot;Japon&quot; - SF33</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-André-de-Cubzac · 09/11</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Grand compotier 27 cm; retrait sur place, espèces uniquement.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">25 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 40 € pour 25 € demandés">×1,6</span></div>
+  </div>
+</article><article class="row" data-ratio="1.5666666666666667" data-pp="15.0"
+  data-price="15" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-02-14 15:44:04">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144911869" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/32/f5/dd/32f5dd62bbd4b7375f56d67daa092c90658b14ba.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144911869" target="_blank" rel="noopener">Coupe sur piedouche Creil-et-Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Fontainebleau · 14/02</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Coupe sur piédouche 24 cm; trois éclats dont un léger fêle, manque au pied.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">15 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal great" title="Valeur estimée 24 € pour 15 € demandés">×1,6</span></div>
+  </div>
+</article><article class="row" data-ratio="1.4666666666666666" data-pp="15.0"
+  data-price="60" data-n="4" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-05-07 16:19:39">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3193396984" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/6f/a5/9e/6fa59eb5424db65efc67e37be22c33e0f22b6781.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3193396984" target="_blank" rel="noopener">Assiettes Creil Montereau modèle Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Joyeuse · 07/05</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">4 assiette plate — <em>4 assiettes de 22 à 23,5 cm, deux légèrement abîmées.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">4<small> p.</small></div>
+    <div class="c-price num">60 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 88 € pour 60 € demandés">×1,5</span></div>
+  </div>
+</article><article class="row" data-ratio="1.434375" data-pp="13.333333333333334"
+  data-price="40" data-n="3" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="tasse" data-date="2026-03-07 06:17:44">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3156691847" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/96/34/79/9634793d98f8d65c3ca780143d9fa8dc55404797.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3156691847" target="_blank" rel="noopener">3 tasses Creil et Montereau modèle Japon 19 ème</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Étienne · 07/03</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">3 tasse — <em>Tasses jaunies, sans soucoupes; état à voir sur photos.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">40 €</div>
+    <div class="c-pp num">13 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 57 € pour 40 € demandés">×1,4</span></div>
+  </div>
+</article><article class="row" data-ratio="1.4166666666666667" data-pp="15.0"
+  data-price="15" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="bol" data-date="2026-07-23 10:09:16">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3237712730" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/ec/63/4c/ec634cc7b2d00b31147c60d6913906de7e820f64.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3237712730" target="_blank" rel="noopener">Bol de Creil et Montereau modèle Japon N°3</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Pouillon · 23/07</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 bol — <em>Modèle Japon n°3, état à voir sur photos</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">15 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 21 € pour 15 € demandés">×1,4</span></div>
+  </div>
+</article><article class="row" data-ratio="1.3257142857142856" data-pp="14.893617021276595"
+  data-price="700" data-n="47" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette creuse|assiette plate|assiette à dessert|soucoupe|tasse|théière / cafetière" data-date="2026-09-14 16:16:25">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3269652617" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/39/b1/f1/39b1f19c62b81438906520f384e48829ff4d6335.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3269652617" target="_blank" rel="noopener">Lot Faïence Japon Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Paris · 14/09</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">9 assiette plate · 8 assiette creuse · 12 assiette à dessert · 9 soucoupe · 4 tasse · 1 théière / cafetière — <em>Grand lot vendu en bloc, sans négociation; date 1910-1920 douteuse; Paris 16; pot à café.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">47<small> p.</small></div>
+    <div class="c-price num">700 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 928 € pour 700 € demandés">×1,3</span></div>
+  </div>
+</article><article class="row" data-ratio="1.3175" data-pp="50.0"
+  data-price="50" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="plat ovale" data-date="2026-10-07 10:35:20">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/antiquites/3283783786" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/a2/bc/4a/a2bc4a6e477ac92764124f86a4d795837007e06b.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/antiquites/3283783786" target="_blank" rel="noopener">Antiquité / Décoration - Plat à rôti style Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Grenoble · 07/10</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 plat ovale — <em>Plat à rôti 32x46 cm, grande taille; retrait Grenoble uniquement.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">50 €</div>
+    <div class="c-pp num">50 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 66 € pour 50 € demandés">×1,3</span></div>
+  </div>
+</article><article class="row" data-ratio="1.3043478260869565" data-pp="14.95"
+  data-price="29.9" data-n="2" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette creuse|assiette plate" data-date="2026-09-20 10:17:54">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3273050474" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/ce/0d/ef/ce0def1bdcb094800e01811e7d2fae782180234d.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3273050474" target="_blank" rel="noopener">2 Assiettes oiseau Creil et Montereau modèle JAPON ??- Terre de Fer bleue,af1604</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Riedisheim · 20/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate · 1 assiette creuse — <em>Modèle Japon incertain (oiseaux, éventail); creuse avec petite égrenure.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">30 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 39 € pour 30 € demandés">×1,3</span></div>
+  </div>
+</article><article class="row" data-ratio="1.284" data-pp="18.51851851851852"
+  data-price="1000" data-n="54" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette creuse|assiette plate" data-date="2025-09-08 11:14:51">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/antiquites/3053803736" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/a9/08/e3a908eb60ccac173902fb633e2bc7542aeaa1a6.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/antiquites/3053803736" target="_blank" rel="noopener">Service d&#x27;assiette Creil et Montereau Japon 54 pièces</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Toulouse · 08/09</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">12 assiette creuse · 42 assiette plate — <em>Service de 54 assiettes (23 et 21,5 cm), très bon état général.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">54<small> p.</small></div>
+    <div class="c-price num">1 000 €</div>
+    <div class="c-pp num">19 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 1 284 € pour 1 000 € demandés">×1,3</span></div>
+  </div>
+</article><article class="row" data-ratio="1.26" data-pp="20.833333333333332"
+  data-price="250" data-n="12" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="soucoupe|tasse" data-date="2026-10-11 20:11:22">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3286707941" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/70/0f/27/700f27135f713a84f1f1ad46ac5f000e501a9775.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3286707941" target="_blank" rel="noopener">Service 6tasses et soucoupes Creil Montereau modl JAPON BARLUET 1878</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Brieuc-des-Iffs · 11/10</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">6 tasse · 6 soucoupe — <em>6 duos tasse/soucoupe, tampon C.B.&amp;Cie M., parfait état, envoi Colissimo assuré.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">12<small> p.</small></div>
+    <div class="c-price num">250 €</div>
+    <div class="c-pp num">21 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 315 € pour 250 € demandés">×1,3</span></div>
+  </div>
+</article><article class="row" data-ratio="1.25" data-pp="18.0"
+  data-price="18" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="saucière" data-date="2026-10-13 17:56:41">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287813141" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/06/d5/5b06d5a50d1e4a56aa3e1e28fe785de9b9c16112.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287813141" target="_blank" rel="noopener">Saucière Faïence Creil-Montereau, Japon, 1880</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Lamothe-Montravel · 13/10</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 saucière — <em>Saucière 27 cm de long, 3 petits éclats visibles sur photos.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">18 €</div>
+    <div class="c-pp num">18 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 22 € pour 18 € demandés">×1,2</span></div>
+  </div>
+</article><article class="row" data-ratio="1.25" data-pp="28.0"
+  data-price="28" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="soupière / légumier" data-date="2026-10-17 17:06:07">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290092459" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/0b/ae/c4/0baec4635c16280bb40142ea1d2ada13672fa116.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290092459" target="_blank" rel="noopener">Légumier creil et montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Montgueux · 17/10</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 soupière / légumier — <em>Légumier 22 cm; fêle sur couvercle, manque de matière sur socle.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">28 €</div>
+    <div class="c-pp num">28 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 35 € pour 28 € demandés">×1,2</span></div>
+  </div>
+</article><article class="row" data-ratio="1.2" data-pp="25.0"
+  data-price="25" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette creuse" data-date="2026-08-10 14:03:05">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247784958" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/f7/60/fa/f760fab8e0751782a0e9c205d729f019e8d0cfba.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247784958" target="_blank" rel="noopener">Creil et Montereau assiette creuse service Japon prix à la pièce</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Le Touquet-Paris-Plage · 10/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 assiette creuse — <em>Prix à la pièce, achat possible par 1, 6 ou 12; 22,5 cm</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">25 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 30 € pour 25 € demandés">×1,2</span></div>
+  </div>
+</article><article class="row" data-ratio="1.1071428571428572" data-pp="70.0"
+  data-price="70" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="plat ovale" data-date="2026-08-10 13:49:10">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247776735" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/fb/05/9d/fb059d307dc985bc6925632c39203d03f3da1d79.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247776735" target="_blank" rel="noopener">Creil Et Montereau Plat En Faïence Ovale Modele &quot;Japon&quot;</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Le Touquet-Paris-Plage · 10/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 plat ovale — <em>Plat ovale 33x23 cm</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">70 €</div>
+    <div class="c-pp num">70 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 78 € pour 70 € demandés">×1,1</span></div>
+  </div>
+</article><article class="row" data-ratio="1.1" data-pp="20.0"
+  data-price="40" data-n="2" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-06-23 16:14:01">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3221729992" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/72/62/00/726200d8892f98432200a0570ba0b0cd857e21b7.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3221729992" target="_blank" rel="noopener">2 plats de service &quot;JAPON&quot; Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Amand-Montrond · 23/06</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">2 plat rond — <em>Un petit plat fêlé, un grand ébréché; forme non précisée.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">40 €</div>
+    <div class="c-pp num">20 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 44 € pour 40 € demandés">×1,1</span></div>
+  </div>
+</article><article class="row" data-ratio="1.1" data-pp="15.0"
+  data-price="15" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-08-31 23:17:08">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/decoration/3260710149" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/e0/3b/1be03b897ce66472516cd08dc6907aba3f2e3279.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/decoration/3260710149" target="_blank" rel="noopener">Assiette Creil et Montereau décor Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Paris · 31/08</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate — <em>Un éclat au verso, quasi invisible au recto.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">15 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 16 € pour 15 € demandés">×1,1</span></div>
+  </div>
+</article><article class="row" data-ratio="1.1" data-pp="15.0"
+  data-price="15" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-09-18 20:40:16">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272188830" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/fd/58/38/fd58380ba14b38790db0699c3b254adeb90ecbf0.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272188830" target="_blank" rel="noopener">Assiette Creil Montereau Japon 26 cm</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 18/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate — <em>26 cm, grand diamètre; éclats au revers.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">15 €</div>
+    <div class="c-pp num">15 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal good" title="Valeur estimée 16 € pour 15 € demandés">×1,1</span></div>
+  </div>
+</article><article class="row" data-ratio="1.0444444444444445" data-pp="45.0"
+  data-price="45" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-08-27 10:33:28">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3257602330" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/07/ad/27/07ad2714d2f31b8ad0da842335823e905ea5cefa.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3257602330" target="_blank" rel="noopener">Creil montereau présentoir japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saclas · 27/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Présentoir 24 cm, hauteur 10 cm</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">45 €</div>
+    <div class="c-pp num">45 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 47 € pour 45 € demandés">×1,0</span></div>
+  </div>
+</article><article class="row" data-ratio="1.0" data-pp="25.0"
+  data-price="50" data-n="2" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="bol" data-date="2022-05-11 18:20:17">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/2160437807" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/dd/ed/d4/ddedd481112744905e82439cc7072d6d4d2c7a1a.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/2160437807" target="_blank" rel="noopener">Bol encien creil japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Tourville-la-Rivière · 11/05</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">2 bol — <em>Deux bols en terre de fer, « japonisant »: décor Japon à vérifier.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">50 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 50 € pour 50 € demandés">×1,0</span></div>
+  </div>
+</article><article class="row" data-ratio="1.0" data-pp="30.0"
+  data-price="30" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="ravier" data-date="2026-10-12 17:31:09">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287205223" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/47/5e/12/475e12a14370d9509e9cff5c402d0f856ea260e4.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287205223" target="_blank" rel="noopener">Ravier Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 12/10</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 ravier — <em>Piqûres au fond, usure sur un bord ; 23×13 cm ; réduction possible si plusieurs achats.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">30 €</div>
+    <div class="c-pp num">30 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 30 € pour 30 € demandés">×1,0</span></div>
+  </div>
+</article><article class="row" data-ratio="0.9591836734693877" data-pp="49.0"
+  data-price="49" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-10-21 07:52:27">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3292273171" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/ab/a5/13/aba5139202b0dde0d0ea5c8b785992c106797d29.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3292273171" target="_blank" rel="noopener">COUPE à FRUITS TERRE DE FER ESTAMPILLE CREIL &amp; MONTEREAU MODELE &quot;JAPON&quot; Parfait état</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>La Rochelle · 21/10</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Coupe à fruits sur pied, H 10 cm, Ø 24,5 cm, période Barluet 1876-1884.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">49 €</div>
+    <div class="c-pp num">49 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 47 € pour 49 € demandés">×1,0</span></div>
+  </div>
+</article><article class="row" data-ratio="0.9166666666666666" data-pp="48.0"
+  data-price="48" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-06-08 11:01:11">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3212593349" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/52/fd/1b/52fd1b9edcf55c5dc4dd74faf320272650c345b9.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3212593349" target="_blank" rel="noopener">Plat rond modèle ’JAPON’par Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Sens · 08/06</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 plat rond — <em>Plat rond 31 cm, à Sens; envoi possible.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">48 €</div>
+    <div class="c-pp num">48 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 44 € pour 48 € demandés">×0,9</span></div>
+  </div>
+</article><article class="row" data-ratio="0.9166666666666666" data-pp="12.0"
+  data-price="24" data-n="2" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-08-12 23:51:26">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3249177795" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/13/74/35/137435430061f9f320fd4697aaf5915471370ae2.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3249177795" target="_blank" rel="noopener">Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Alès · 12/08</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">2 assiette plate — <em>Assiettes fêlées et ébréchées; attribuées modèle Japon</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">24 €</div>
+    <div class="c-pp num">12 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 22 € pour 24 € demandés">×0,9</span></div>
+  </div>
+</article><article class="row" data-ratio="0.9117647058823529" data-pp="85.0"
+  data-price="85" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="plat ovale" data-date="2026-08-08 16:11:54">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3246747924" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/2f/34/87/2f348742aea71462812045e1569b3abac455636b.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3246747924" target="_blank" rel="noopener">Creil Et Montereau Plat En Faïence Ovale Modele &quot;japon&quot;</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Grignan · 08/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 plat ovale — <em>Plat ovale 33x23 cm, très bon état</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">85 €</div>
+    <div class="c-pp num">85 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 78 € pour 85 € demandés">×0,9</span></div>
+  </div>
+</article><article class="row" data-ratio="0.8979591836734694" data-pp="24.5"
+  data-price="49" data-n="2" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2025-11-25 21:37:28">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3100937905" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/28/eb/5a/28eb5abae78b7ae698615255ceff75877f4ca83a.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3100937905" target="_blank" rel="noopener">2 assiettes plates Japon de Creil et Montereau XIXe Terre de Fer</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Darnétal · 25/11</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">2 assiette plate — <em>Diamètre 22,7 cm; défaut de fabrication sous l&#x27;aile.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">49 €</div>
+    <div class="c-pp num">24 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 44 € pour 49 € demandés">×0,9</span></div>
+  </div>
+</article><article class="row" data-ratio="0.88" data-pp="50.0"
+  data-price="50" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-06-04 16:51:08">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3210458016" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/b8/b4/3e/b8b43e95dfaa04c4baad79860d22730d74d3eef7.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3210458016" target="_blank" rel="noopener">Grand plat faience Creil et Montereau Japon 37 cm</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Neuilly-sur-Seine · 04/06</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 plat rond — <em>Grand plat 37 cm, très bon état; remise en main propre.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">50 €</div>
+    <div class="c-pp num">50 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 44 € pour 50 € demandés">×0,9</span></div>
+  </div>
+</article><article class="row" data-ratio="0.85" data-pp="30.0"
+  data-price="30" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="saucière" data-date="2026-03-14 10:52:37">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3161416684" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/bc/d6/29/bcd629d74d5f5a94e3c4f9ecfcb3ab083716b3c4.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3161416684" target="_blank" rel="noopener">Saucière Creil et Montereau modèle Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Dompierre-sur-Helpe · 14/03</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 saucière — <em>Saucière vers 1876, état non précisé, prix bas.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">30 €</div>
+    <div class="c-pp num">30 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 26 € pour 30 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.85" data-pp="30.0"
+  data-price="60" data-n="2" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="autre" data-date="2026-04-26 00:37:47">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/decoration/3186325877" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/8a/45/96/8a4596683350c24d1416607c7a536402d300a8cb.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/decoration/3186325877" target="_blank" rel="noopener">2 pots à anses Creil Montereau, Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Suresnes · 26/04</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">2 autre — <em>2 pots à anses, haut. 12,5 cm; pas d&#x27;envoi.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">60 €</div>
+    <div class="c-pp num">30 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 51 € pour 60 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.8461538461538461" data-pp="19.5"
+  data-price="39" data-n="2" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-09-13 22:20:30">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3269259033" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/ee/d2/11/eed21185ed02afdcbd8d86db178b20fb9ea26859.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3269259033" target="_blank" rel="noopener">Paire d’assiettes faïence Creil &amp; Montereau décors Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Bouc-Bel-Air · 13/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">2 assiette plate — <em>Paire 22 cm, 2 petits éclats; type d&#x27;assiette supposé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">39 €</div>
+    <div class="c-pp num">20 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal fair" title="Valeur estimée 33 € pour 39 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7894736842105263" data-pp="38.0"
+  data-price="38" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="coquetier" data-date="2026-09-19 11:04:00">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272435607" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c5/cc/1fc5cc7f6f9ed1bd0cd40561e84c01a95a649c4c.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3272435607" target="_blank" rel="noopener">Coquetier Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 19/09</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 coquetier — <em>Coquetier diabolo rare; petit défaut de cuisson.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">38 €</div>
+    <div class="c-pp num">38 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 38 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7894736842105263" data-pp="38.0"
+  data-price="38" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="coquetier" data-date="2026-10-17 10:29:35">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3289773176" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/c5/cc/1fc5cc7f6f9ed1bd0cd40561e84c01a95a649c4c.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3289773176" target="_blank" rel="noopener">Coquetier Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 17/10</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 coquetier — <em>Coquetier diabolo 5,5 cm; petit défaut de cuisson visible sur photo.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">38 €</div>
+    <div class="c-pp num">38 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 38 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7857142857142857" data-pp="28.0"
+  data-price="28" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-05-19 09:57:26">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3200924256" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/aa/35/1faa35a8006b2ef5032cf85f8102c36615777e84.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3200924256" target="_blank" rel="noopener">Assiette JAPON Creil Montereau XIXe</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Mondragon · 19/05</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 assiette plate — <em>Assiette 22,5 cm sans marque, références G2 J2, traces jaunes.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">28 €</div>
+    <div class="c-pp num">28 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 28 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.78125" data-pp="8.0"
+  data-price="8" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette à dessert" data-date="2025-12-10 12:07:33">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3110041258" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/9b/3d/ca/9b3dca30d7c42ee6ba58152eede6606d4b6d833c.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3110041258" target="_blank" rel="noopener">Creil et Montreau assiette Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Tarare · 10/12</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette à dessert — <em>Diamètre 18 cm; un éclat au dos; petit prix.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">8 €</div>
+    <div class="c-pp num">8 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 6 € pour 8 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.765" data-pp="33.333333333333336"
+  data-price="100" data-n="3" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="bol|compotier / plat sur pied|ravier" data-date="2026-06-16 15:10:16">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3217991627" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/14/f1/5b14f1c3b85381cc30c95ed716c997c3fcbd4ce7.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3217991627" target="_blank" rel="noopener">Lot de Creil et Montereau modèle Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Magny-le-Hongre · 16/06</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 ravier · 1 bol · 1 compotier / plat sur pied — <em>Ravier, bol et plat sur pied, tous avec éclats.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">100 €</div>
+    <div class="c-pp num">33 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 76 € pour 100 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.75" data-pp="22.5"
+  data-price="45" data-n="2" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="tasse" data-date="2025-11-23 12:46:35">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3099292148" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/21/ec/53/21ec53d280fc7dd92ca53d908a6e53934e95415e.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3099292148" target="_blank" rel="noopener">Tasses à café en Terre de fer, Japon, Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Strasbourg · 23/11</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">2 tasse — <em>Sans soucoupes; petites égrenures sur les pieds.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">45 €</div>
+    <div class="c-pp num">22 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 34 € pour 45 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.75" data-pp="25.0"
+  data-price="25" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="pot à lait / crème" data-date="2026-09-20 11:26:42">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3273112063" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/88/67/aa/8867aab72c4d8d82b87eed8f131df09d783e1004.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3273112063" target="_blank" rel="noopener">Pot à crème ancien en faïence - Creil &amp; Montereau, modèle &quot;Japon&quot; (XIXe)</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Peipin · 20/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 pot à lait / crème — <em>Petit pot sans couvercle, marque B. &amp; Cie 1876-1884; ébréchure au bord.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">25 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 19 € pour 25 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.75" data-pp="20.0"
+  data-price="20" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="autre" data-date="2026-10-14 09:59:45">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3288070227" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/8b/92/b9/8b92b905ebac0ab6c228fdb610a5f18cccd0a0fd.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3288070227" target="_blank" rel="noopener">Pichet Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Brest · 14/10</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 autre — <em>Pichet 16 cm, anse cassée poncée (restaurée/réparée), pas de fêlure.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">20 €</div>
+    <div class="c-pp num">20 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 15 € pour 20 € demandés">×0,8</span></div>
+  </div>
+</article><article class="row" data-ratio="0.748" data-pp="25.0"
+  data-price="25" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-10-05 07:58:12">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/decoration/3282446304" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/53/a6/fa/53a6fa10bfc58e60d2851ba324286b6ee4f0cf11.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/decoration/3282446304" target="_blank" rel="noopener">Belle assiette ancienne</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Sever-de-Saintonge · 05/10</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 assiette plate — <em>Estampillée, vers 1880-1890; type et état non précisés.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">25 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 19 € pour 25 € demandés">×0,7</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7333333333333333" data-pp="30.0"
+  data-price="30" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-07-23 15:25:31">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3237890313" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/d0/b0/ff/d0b0ffeb05edf5a8c2356e382d58ca3c5ba7bd24.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3237890313" target="_blank" rel="noopener">Plat creil montereau japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Longeault-Pluvault · 23/07</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 plat rond — <em>Grand plat 33 cm, fêle stabilisé sur le bord</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">30 €</div>
+    <div class="c-pp num">30 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 30 € demandés">×0,7</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7333333333333333" data-pp="30.0"
+  data-price="30" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-10-12 16:20:46">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287155412" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/93/ad/58/93ad58a8ceff6cb8186ebbb90ae28b557ba4ece8.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287155412" target="_blank" rel="noopener">Assiette plate signée Creil Montereau, modèle Japon en bleu</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>La Chapelle-Moulière · 12/10</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 assiette plate — <em>Diamètre 22,5 cm ; description annonce « porcelaine », très bon état.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">30 €</div>
+    <div class="c-pp num">30 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 30 € demandés">×0,7</span></div>
+  </div>
+</article><article class="row" data-ratio="0.7319444444444444" data-pp="90.0"
+  data-price="90" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="plat ovale" data-date="2026-03-15 09:23:45">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3161994157" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/00/1b/24/001b244f651ac0fa7be8e8c0d5d583d9c1e0dd29.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3161994157" target="_blank" rel="noopener">Creil et montereau plat en faïence ovale modèle Japon 90</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Séguret · 15/03</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 plat ovale — <em>Plat ovale 34 x 23,5 cm.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">90 €</div>
+    <div class="c-pp num">90 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 66 € pour 90 € demandés">×0,7</span></div>
+  </div>
+</article><article class="row" data-ratio="0.6658333333333333" data-pp="60.0"
+  data-price="60" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-07-04 16:17:02">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3227491199" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/2c/09/f02c0984d8cba09fc484831e8e9d4c323675c7a6.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3227491199" target="_blank" rel="noopener">Compotier ou plat à fruits</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Nîmes · 04/07</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Diamètre 24 cm, hauteur 10 cm</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">60 €</div>
+    <div class="c-pp num">60 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 40 € pour 60 € demandés">×0,7</span></div>
+  </div>
+</article><article class="row" data-ratio="0.6428571428571429" data-pp="35.0"
+  data-price="35" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="sucrier / moutardier" data-date="2026-04-01 17:23:11">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3172118844" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/17/c7/7b/17c77bbac4cb384a24a71a0bd2d936acfe975ba0.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3172118844" target="_blank" rel="noopener">Pot sucrier Creil Montereau Japon bleu</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Poitiers · 01/04</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 sucrier / moutardier — <em>Pot sucrier estampillé, défaut au bord.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">35 €</div>
+    <div class="c-pp num">35 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 35 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.629" data-pp="33.333333333333336"
+  data-price="100" data-n="3" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="assiette plate|ravier" data-date="2026-07-03 15:22:53">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3226933793" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/d1/9e/77/d19e77b339c7a1b5bd31c9ba7cd1ba98e56c966a.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3226933793" target="_blank" rel="noopener">Lot Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Chaumont · 03/07</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">2 assiette plate · 1 ravier — <em>Type d&#x27;assiettes non précisé</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">100 €</div>
+    <div class="c-pp num">33 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 63 € pour 100 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.6285714285714286" data-pp="35.0"
+  data-price="35" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-09-06 19:21:07">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3264766611" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/ac/7c/3c/ac7c3cef273f1272e1c68aac530f785ee5efbcd3.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3264766611" target="_blank" rel="noopener">Assiette Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Rennes · 06/09</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 assiette plate — <em>Type d&#x27;assiette (plate/creuse) non précisé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">35 €</div>
+    <div class="c-pp num">35 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 35 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.625" data-pp="40.0"
+  data-price="40" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="pot à lait / crème" data-date="2025-08-15 20:06:59">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3040174275" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/16/46/87/1646875188d00b3763aba84683265f5b51090ddb.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3040174275" target="_blank" rel="noopener">Pot à lait Japon Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Legé · 15/08</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 pot à lait / crème — <em>Parfait état, 11 cm.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">40 €</div>
+    <div class="c-pp num">40 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 25 € pour 40 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5866666666666667" data-pp="37.5"
+  data-price="75" data-n="2" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-08-07 12:23:42">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3246040189" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/64/e6/8b/64e68b3e1bd6146969ea7a725dfaca768a91b7f4.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3246040189" target="_blank" rel="noopener">2 grands plats 37 cm faience Creil et Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Neuilly-sur-Seine · 07/08</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">2 plat rond — <em>Grands plats 37 cm; l&#x27;un avec éclat et fêle, l&#x27;autre très bon</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">75 €</div>
+    <div class="c-pp num">38 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 44 € pour 75 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5707142857142856" data-pp="70.0"
+  data-price="70" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2025-08-03 14:52:49">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3034196997" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/2b/1f/82/2b1f8233f7f79449e1eebe6434bbcf4b05b972c8.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3034196997" target="_blank" rel="noopener">Creil Montereau - Magnifique plat à gâteaux</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Caen · 03/08</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Plat à gâteaux 28 cm, grande taille ; état non précisé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">70 €</div>
+    <div class="c-pp num">70 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 40 € pour 70 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5676420695504665" data-pp="27.41860465116279"
+  data-price="1179" data-n="43" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="assiette creuse|assiette plate|compotier / plat sur pied|couvercle|plat ovale|plat rond|ravier|saladier|soupière / légumier" data-date="2024-09-05 11:01:38">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/2839918654" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/1f/39/3f/1f393f284f34f2a6b2230eb24f474cbeb1134769.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/2839918654" target="_blank" rel="noopener">12 plats 30 assiettes Creil Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Ventalon en Cévennes · 05/09</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">20 assiette plate · 10 assiette creuse · 1 saladier · 3 compotier / plat sur pied · 5 plat rond · 1 soupière / légumier · 1 couvercle · 1 plat ovale · 1 ravier — <em>Lot 43 pièces ; 3 plats agrafés, éclats sous compotier ; ravier rare ; 2 couvercles dont 1 offert.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">43<small> p.</small></div>
+    <div class="c-price num">1 179 €</div>
+    <div class="c-pp num">27 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 669 € pour 1 179 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5555555555555556" data-pp="45.0"
+  data-price="45" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="bol" data-date="2026-10-22 08:39:30">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3292877943" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/7e/13/cc/7e13ccba86a4d7c41391c83da4a619391e284931.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3292877943" target="_blank" rel="noopener">Ancien bol creil et montereau modèle Japon en excellent état non marqué</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Niort · 22/10</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 bol — <em>Bol non marqué, annoncé en excellent état.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">45 €</div>
+    <div class="c-pp num">45 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 25 € pour 45 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.55" data-pp="40.0"
+  data-price="40" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-03-29 21:23:29">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3170645895" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/dd/95/e1dd95d862cabf17b7d378efc1d393443a5b925a.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3170645895" target="_blank" rel="noopener">Ancien plat Japon de creil montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Poitiers · 29/03</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 plat rond — <em>Plat réparé aux agrafes; forme et taille non précisées.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">40 €</div>
+    <div class="c-pp num">40 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 40 € demandés">×0,6</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5384615384615384" data-pp="130.0"
+  data-price="130" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="soupière / légumier" data-date="2026-08-10 13:43:21">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247773363" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/70/8b/15/708b15928047ca060291b59ebd98f9b1acdb3766.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247773363" target="_blank" rel="noopener">Grande soupière légumier Creil &amp; Montereau en terre de fer bleue service &quot;Japon&quot;</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Le Touquet-Paris-Plage · 10/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 soupière / légumier — <em>Grande soupière avec couvercle, diamètre 23 cm, hauteur 15 cm</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">130 €</div>
+    <div class="c-pp num">130 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 70 € pour 130 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5171875" data-pp="80.0"
+  data-price="240" data-n="3" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="plat ovale|plat rond" data-date="2026-10-18 11:47:33">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290470851" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/b1/a3/fc/b1a3fc2e1426c012626d299fd9c902d548da20f1.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290470851" target="_blank" rel="noopener">3 plats faience Creil Montereau décor Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Fontainebleau · 18/10</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 plat ovale · 2 plat rond — <em>Plat ovale 41,7 cm, ronds 31 cm; petit manque d&#x27;émail, décor flouté; main propre 77.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">3<small> p.</small></div>
+    <div class="c-price num">240 €</div>
+    <div class="c-pp num">80 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 124 € pour 240 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5084745762711864" data-pp="59.0"
+  data-price="59" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="ravier" data-date="2026-08-10 14:09:54">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247789040" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/00/5e/8b/005e8b3b2e164ef47c5a6a60889ed988b66e2610.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247789040" target="_blank" rel="noopener">Creil et Montereau modèle Japon magnifique ravier ancien ovale</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Le Touquet-Paris-Plage · 10/08</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 ravier — <em>Ravier ovale 23x13 cm; un second disponible</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">59 €</div>
+    <div class="c-pp num">59 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 59 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5" data-pp="8.333333333333334"
+  data-price="50" data-n="6" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="assiette à dessert" data-date="2025-05-18 13:01:53">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/2991975317" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/18/d6/41/18d6418548922555d472690f04276d85373bb8e8.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/2991975317" target="_blank" rel="noopener">Assiettes à dessert Creil-et-Montereau Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Fontainebleau · 18/05</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">6 assiette à dessert — <em>6 assiettes à dessert, état moyen : égrenures, deux fêles sur une.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">6<small> p.</small></div>
+    <div class="c-price num">50 €</div>
+    <div class="c-pp num">8 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 25 € pour 50 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5" data-pp="60.0"
+  data-price="60" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="sucrier / moutardier" data-date="2026-06-12 18:13:50">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3215223018" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/11/01/8e/11018e667007e49ba28e6c93943474e980a8687e.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3215223018" target="_blank" rel="noopener">Pot à sucre « Japon » Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Grenoble · 12/06</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 sucrier / moutardier — <em>Pot à sucre sans couvercle, fêle de cuisson non traversant.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">60 €</div>
+    <div class="c-pp num">60 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 60 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.5" data-pp="70.0"
+  data-price="70" data-n="1" data-etat="fele_ou_restaure"
+  data-rank="4" data-source="leboncoin"
+  data-types="soupière / légumier" data-date="2026-10-18 17:34:24">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290789782" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/5f/0f/fd/5f0ffdc7c102c12a32563faf22d7d513656ea9d5.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3290789782" target="_blank" rel="noopener">Ancienne grande soupière Creil-Montereau – Modèle Japon (Service &quot;Monet&quot;) – XIXe</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Melle · 18/10</span><span class="etat bad m-only">fêlé ou restauré</span></div>
+    <div class="comp">1 soupière / légumier — <em>Grande soupière 22,7 cm; trois restaurations anciennes, égrenures aux anses; bon prix.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat bad">fêlé ou restauré</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">70 €</div>
+    <div class="c-pp num">70 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 35 € pour 70 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.4888888888888889" data-pp="45.0"
+  data-price="45" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-08-09 17:04:34">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247337811" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/a8/81/0e/a8810e725d9eb831d56d3f7f0fd4982cc4cf39ed.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3247337811" target="_blank" rel="noopener">Assiette modèle Japon ou Monnet Creil Montereau B &amp; Cie première édition</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Paris · 09/08</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 assiette plate — <em>Assiette 21,7 cm, annoncée première édition, rare</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">45 €</div>
+    <div class="c-pp num">45 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 45 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.4811320754716981" data-pp="53.0"
+  data-price="53" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="théière / cafetière" data-date="2026-02-08 08:34:20">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3141336734" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/9b/9c/dc/9b9cdcd4f20675f5e1023271f57d57eabd9fab42.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3141336734" target="_blank" rel="noopener">Creil et Montereau modèle Japon théière grande taille</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Rouen · 08/02</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 théière / cafetière — <em>Théière grand modèle, 19,5 cm de haut.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">53 €</div>
+    <div class="c-pp num">53 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 26 € pour 53 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.478125" data-pp="40.0"
+  data-price="40" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="tasse" data-date="2026-09-22 17:28:54">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3274732988" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/3b/f9/ed/3bf9ed778eddbc8568c37a4e5eb4c4b461f6dca1.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3274732988" target="_blank" rel="noopener">Tasse sans soucoupe</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Savonnières · 22/09</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 tasse — <em>Tasse à café sans soucoupe; prix élevé; état non précisé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">40 €</div>
+    <div class="c-pp num">40 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 19 € pour 40 € demandés">×0,5</span></div>
+  </div>
+</article><article class="row" data-ratio="0.4" data-pp="75.0"
+  data-price="150" data-n="2" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="assiette creuse|sucrier / moutardier" data-date="2026-03-12 18:37:26">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3160614774" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/a3/f8/72/a3f872a50f170b0319ed09f55c0fc7343062d716.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3160614774" target="_blank" rel="noopener">Pot + assiette Creil et Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Marcel-lès-Valence · 12/03</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 sucrier / moutardier · 1 assiette creuse — <em>Moutardier Japon + assiette creuse 23 cm, très bon état.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">2<small> p.</small></div>
+    <div class="c-price num">150 €</div>
+    <div class="c-pp num">75 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 60 € pour 150 € demandés">×0,4</span></div>
+  </div>
+</article><article class="row" data-ratio="0.4" data-pp="110.0"
+  data-price="110" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-10-09 20:08:28">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3285309832" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/eb/b8/0e/ebb80ee46dc4755c0716d5a5c8f72252ef81e5b1.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3285309832" target="_blank" rel="noopener">Terre de fer, Creil et Montereau, grand plat &quot;Japon&quot; ou &quot;Monet&quot;, estampillé Barliet et cie</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Strasbourg · 09/10</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 plat rond — <em>Grand plat 31 cm, estampillé B &amp; Cie 1876-1884; parfait état.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">110 €</div>
+    <div class="c-pp num">110 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 44 € pour 110 € demandés">×0,4</span></div>
+  </div>
+</article><article class="row" data-ratio="0.39166666666666666" data-pp="120.0"
+  data-price="120" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="compotier / plat sur pied" data-date="2026-02-13 12:41:22">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144267295" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/02/f1/3f/02f13f40f2ecc04ec2b608b96b5ca9c60a669094.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144267295" target="_blank" rel="noopener">Compotier &quot;Japon&quot; Creil &amp; Montereau 23 cm</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Paris · 13/02</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 compotier / plat sur pied — <em>Compotier 23 cm, 10 cm de haut, sans éclats; prix élevé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">120 €</div>
+    <div class="c-pp num">120 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 47 € pour 120 € demandés">×0,4</span></div>
+  </div>
+</article><article class="row" data-ratio="0.375" data-pp="80.0"
+  data-price="80" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="saucière" data-date="2026-09-15 20:21:50">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3270412525" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/76/27/08/7627089bd9a945ec9f50fac78243ced9e08661c2.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3270412525" target="_blank" rel="noopener">Saucière Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Marmande · 15/09</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 saucière — <em>Saucière avec son dormant, très bon état.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">80 €</div>
+    <div class="c-pp num">80 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 80 € demandés">×0,4</span></div>
+  </div>
+</article><article class="row" data-ratio="0.3333333333333333" data-pp="90.0"
+  data-price="90" data-n="1" data-etat="parfait"
+  data-rank="0" data-source="leboncoin"
+  data-types="autre" data-date="2026-04-06 11:05:34">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3174699475" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/12/8a/94/128a94643a68afca960acbf7ded68371dc7bf511.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3174699475" target="_blank" rel="noopener">Ancien porte douceurs en faience de creil et montereau decor Japon</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Bourganeuf · 06/04</span><span class="etat ok m-only">parfait état</span></div>
+    <div class="comp">1 autre — <em>Porte-douceurs, forme rare, marque visible au revers.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">parfait état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">90 €</div>
+    <div class="c-pp num">90 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 30 € pour 90 € demandés">×0,3</span></div>
+  </div>
+</article><article class="row" data-ratio="0.33" data-pp="50.0"
+  data-price="50" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-08-27 10:47:31">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/decoration/3257611665" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/c2/db/0f/c2db0ffc0ae650ce12b9a3383bb0e6dc8eca30be.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/decoration/3257611665" target="_blank" rel="noopener">Assiette ancienne</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Saint-Médard-en-Jalles · 27/08</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette plate — <em>4 éclats au revers, face intacte; pas de livraison</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">50 €</div>
+    <div class="c-pp num">50 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 16 € pour 50 € demandés">×0,3</span></div>
+  </div>
+</article><article class="row" data-ratio="0.31166666666666665" data-pp="120.0"
+  data-price="120" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="plat rond" data-date="2026-02-13 12:14:11">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144254821" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/e1/f4/31/e1f431a6d3c914c738548081557efe6a98570e65.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3144254821" target="_blank" rel="noopener">Grand plat de service &quot;Japon&quot; 33cm Creil &amp; Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Paris · 13/02</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 plat rond — <em>Grand plat de service 33 cm, 1132 g; prix élevé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">120 €</div>
+    <div class="c-pp num">120 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 37 € pour 120 € demandés">×0,3</span></div>
+  </div>
+</article><article class="row" data-ratio="0.2671428571428571" data-pp="70.0"
+  data-price="70" data-n="1" data-etat="inconnu"
+  data-rank="2" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-04-02 16:51:48">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/collection/3172627920" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/09/0d/5e/090d5ee9219739965e407fae430963ce9653c6ed.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/collection/3172627920" target="_blank" rel="noopener">Belle assiette modèle Japon Monet bleue Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Douai · 02/04</span><span class="etat unk m-only">état non précisé</span></div>
+    <div class="comp">1 assiette plate — <em>Assiette 22,5 cm, prix élevé, état non précisé.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat unk">état non précisé</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">70 €</div>
+    <div class="c-pp num">70 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 19 € pour 70 € demandés">×0,3</span></div>
+  </div>
+</article><article class="row" data-ratio="0.25" data-pp="25.0"
+  data-price="25" data-n="1" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="assiette à dessert" data-date="2026-10-13 20:19:43">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287902353" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/b6/32/0c/b6320c062d9cc8426378903970de4d22dc364ba6.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3287902353" target="_blank" rel="noopener">Creil Montereau, petite assiette décor Japon fin XIXème</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Angers · 13/10</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 assiette à dessert — <em>Petite assiette 21,5 cm, petits éclats, vendeur annonce aussi « bon état ».</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">25 €</div>
+    <div class="c-pp num">25 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 6 € pour 25 € demandés">×0,2</span></div>
+  </div>
+</article><article class="row" data-ratio="0.06285714285714286" data-pp="350.0"
+  data-price="350" data-n="1" data-etat="bon"
+  data-rank="1" data-source="leboncoin"
+  data-types="assiette plate" data-date="2026-07-02 16:22:09">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3226405291" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/78/20/9b/78209bb5ff23bc2311256d1b73bdf96c208218fb.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3226405291" target="_blank" rel="noopener">Magnifique assiette du Japon creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Collonges-au-Mont-d&#x27;Or · 02/07</span><span class="etat ok m-only">bon état</span></div>
+    <div class="comp">1 assiette plate — <em>Prix très élevé; description générique évoquant la porcelaine, authenticité douteuse.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat ok">bon état</span></div>
+    <div class="c-n num">1<small> p.</small></div>
+    <div class="c-price num">350 €</div>
+    <div class="c-pp num">350 €<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal high" title="Valeur estimée 22 € pour 350 € demandés">×0,1</span></div>
+  </div>
+</article><article class="row" data-ratio="0" data-pp="1000000000.0"
+  data-price="2000" data-n="0" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="" data-date="2025-09-04 16:06:59">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3051009221" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/35/96/8c/35968ce4bf22605333f6ea5572c03201fb91db2a.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3051009221" target="_blank" rel="noopener">Vends vaisselle Creil Montereau</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Évreux · 04/09</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp"> — <em>Service Japon, contenu non détaillé, certaines pièces ébréchées ; nombre inconnu.</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">?<small> p.</small></div>
+    <div class="c-price num">2 000 €</div>
+    <div class="c-pp num">—<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal unk" title="Pièces ou prix indéterminés">—</span></div>
+  </div>
+</article><article class="row" data-ratio="0" data-pp="1000000000.0"
+  data-price="1000000000.0" data-n="0" data-etat="eclats"
+  data-rank="3" data-source="leboncoin"
+  data-types="autre" data-date="2026-08-29 08:28:34">
+  <a class="thumb" href="https://www.leboncoin.fr/ad/arts_de_la_table/3258721469" target="_blank" rel="noopener"><img src="https://img.leboncoin.fr/api/v1/lbcpb1/images/01/f9/f9/01f9f9db9c178b696a398e22130f0396ffe221e8.jpg?rule=ad-large" loading="lazy" alt=""></a>
+  <div class="body">
+    <a class="title" href="https://www.leboncoin.fr/ad/arts_de_la_table/3258721469" target="_blank" rel="noopener">Faiences de Creil-Montereau modèle japon et modèle flora vers 1850</a>
+    <div class="meta"><span class="src leboncoin">leboncoin</span><span>Erdeven · 29/08</span><span class="etat warn m-only">éclats</span></div>
+    <div class="comp">1 autre — <em>Lot ~70 pièces mêlées Japon et Flora, prix affiché non représentatif; date 1850 douteuse</em></div>
+  </div>
+  <div class="cells">
+    <div class="c-etat"><span class="etat warn">éclats</span></div>
+    <div class="c-n num">?<small> p.</small></div>
+    <div class="c-price num">—<span class="note">affiché 70 €</span></div>
+    <div class="c-pp num">—<small>/pièce</small></div>
+    <div class="c-deal num"><span class="deal unk" title="Pièces ou prix indéterminés">—</span></div>
+  </div>
+</article></div>
+  </div>
+  <div class="empty" id="empty" hidden>Aucune pièce ne correspond à ces filtres.</div>
+
+  <h2>Adjugés</h2>
+  <p class="lede">Prix réellement payés lors des ventes suivies, frais acheteur compris.</p>
+  <div class="empty">Aucun résultat pour l’instant — relevé automatique après chaque vente.</div>
+
+  <details class="rej"><summary>12 annonces écartées par l’analyse</summary><ul><li><a href="https://www.leboncoin.fr/ad/collection/2169304936" target="_blank" rel="noopener">Lot de cartes postales collector peinture classique / impressionnisme / moderne(couleur / cartonnée)</a> <span class="muted">— Cartes postales.</span></li><li><a href="https://www.leboncoin.fr/ad/decoration/2368168988" target="_blank" rel="noopener">VASE façon décor floral JAPON</a> <span class="muted">— Vase Made in China, pas Creil et Montereau.</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/2921680318" target="_blank" rel="noopener">🪷Délicat crémier / pot à lait en porcelaine Japon fin XIXe s. (Cf mode du japonisme impressionniste dernier quart 19e s.)</a> <span class="muted">— Porcelaine peinte main, pas Creil et Montereau Japon.</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3057867643" target="_blank" rel="noopener">Creil &amp; Montereau, Tasse Japon, 1875</a> <span class="muted">— Copie hollandaise (Maastricht), pas Creil et Montereau.</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3205375071" target="_blank" rel="noopener">Belle garniture de toilette Soleil de Sarreguemines</a> <span class="muted">— Garniture de toilette Sarreguemines, simple ressemblance.</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3225676779" target="_blank" rel="noopener">Ancienne assiette Kyoto de Longwy</a> <span class="muted">— Longwy Kyoto, pas Creil et Montereau.</span></li><li><a href="https://www.leboncoin.fr/ad/antiquites/3240836410" target="_blank" rel="noopener">Compotier ancien Creil et Montereau en faïence fine, décor japonisant bleu, bambou et prunier</a> <span class="muted">— Décor japonisant rameaux fleuris, bambou/prunier, pas explicitement modèle Japon; probablement autre décor</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3248609016" target="_blank" rel="noopener">Service à café Saigon HB et cie Terre de fer</a> <span class="muted">— Service Saigon HB, pas Creil et Montereau Japon</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3253586335" target="_blank" rel="noopener">Porte savon Creil Montereau arabesque</a> <span class="muted">— Porte-savon arabesque, rappelle seulement le décor Japon</span></li><li><a href="https://www.leboncoin.fr/ad/arts_de_la_table/3275132179" target="_blank" rel="noopener">Dessous de plat en faïence de Creil et Montereau, décor japonisant</a> <span class="muted">— Dessous-de-plat décor japonisant, pas clairement le modèle Japon.</span></li><li><a href="https://www.leboncoin.fr/ad/collection/3290406943" target="_blank" rel="noopener">🖼️ Lithographie originale Camille Hilaire - &quot;Le Pont à Giverny&quot; (Papier Japon)</a> <span class="muted">— Lithographie sur papier japon, sans rapport.</span></li><li><a href="https://www.interencheres.com/art-decoration/vente-691989/lot-89434886.html" target="_blank" rel="noopener">[PETIT, Georges.]. BRACQUEMONT, Félix.</a> <span class="muted">— Livre de gravures (japon = papier), sans rapport avec la faïence.</span></li></ul></details>
+</main>
+
+<dialog id="method"><button class="chip icon close" data-close>×</button>
+  <h3>Lire la page</h3>
+  <p><b>€/pièce</b> — prix réel du lot (corrigé d’après la description) divisé par le nombre de pièces décor Japon.</p>
+  <p><b>×1,5</b> — la valeur estimée du lot vaut 1,5 fois son prix. Valeur = somme, pièce par pièce, du prix médian demandé
+    sur leboncoin pour ce type vendu seul, décotée selon l’état (éclats −25 %, fêlé ou restauré −50 %, non précisé −15 %).</p>
+  <p><b>Enchères</b> — prix = milieu de l’estimation + frais acheteur. L’adjudication réelle dépasse souvent l’estimation
+    sur ce décor recherché ; les lots disparaissent après la vente et rejoignent « Adjugés ».</p>
+  <p class="muted">Pièces, prix et état sont extraits par Claude des annonces : à vérifier avant d’acheter.</p>
+</dialog>
+
+<dialog id="refs"><button class="chip icon close" data-close>×</button>
+  <h3>Prix de référence</h3>
+  <p class="muted">Médiane par pièce, pour les pièces vendues seules. Types à moins de 3 annonces : médiane globale (30 €).</p>
+  <table><thead><tr><th>Type</th><th>Demandé</th><th>Annonces</th><th>Payé aux enchères</th></tr></thead><tbody><tr><td>assiette plate</td><td>22 €</td><td class=muted>18</td><td><span class=muted>—</span></td></tr><tr><td>compotier / plat sur pied</td><td>47 €</td><td class=muted>8</td><td><span class=muted>—</span></td></tr><tr><td>plat rond</td><td>44 €</td><td class=muted>8</td><td><span class=muted>—</span></td></tr><tr><td>plat ovale</td><td>78 €</td><td class=muted>4</td><td><span class=muted>—</span></td></tr><tr><td>bol</td><td>25 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>assiette à dessert</td><td>8 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>pot à lait / crème</td><td>25 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>tasse</td><td>22 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>saucière</td><td>30 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>autre</td><td>30 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>soupière / légumier</td><td>70 €</td><td class=muted>3</td><td><span class=muted>—</span></td></tr><tr><td>sucrier / moutardier</td><td><span class=muted>—</span></td><td class=muted>2</td><td><span class=muted>—</span></td></tr><tr><td>ravier</td><td><span class=muted>—</span></td><td class=muted>2</td><td><span class=muted>—</span></td></tr><tr><td>coquetier</td><td><span class=muted>—</span></td><td class=muted>2</td><td><span class=muted>—</span></td></tr><tr><td>théière / cafetière</td><td><span class=muted>—</span></td><td class=muted>1</td><td><span class=muted>—</span></td></tr><tr><td>assiette creuse</td><td><span class=muted>—</span></td><td class=muted>1</td><td><span class=muted>—</span></td></tr></tbody></table>
+</dialog>
+
+<script>
+const list = document.getElementById('list');
+const items = [...list.children];
+const state = { source: '', cond: false, lots: false };
+const $ = id => document.getElementById(id);
+
+// sens par défaut au premier clic sur une colonne
+const DEFAULT_DIR = { ratio: -1, pp: 1, price: 1, n: -1, rank: 1, date: -1 };
+const MENU = { ratio: ['ratio', -1], pp: ['pp', 1], price: ['price', 1], 'price-desc': ['price', -1], date: ['date', -1] };
+state.sort = { key: 'ratio', dir: -1 };
+
+function value(el, key) {
+  if (key === 'date') return el.dataset.date || '';
+  const v = +el.dataset[key];
+  // valeurs inconnues (1e9, ou 0 pour l'indice) toujours en fin de liste
+  if (v >= 1e9 || (key === 'ratio' && v === 0)) return null;
+  return v;
+}
+function apply() {
+  const type = $('f-type').value, max = parseFloat($('f-max').value);
+  const { key, dir } = state.sort;
+  let n = 0;
+  items.forEach(el => {
+    const d = el.dataset;
+    const ok = (!state.source || d.source === state.source)
+      && (!type || d.types.split('|').includes(type))
+      && !(state.cond && d.etat === 'fele_ou_restaure')
+      && !(state.lots && +d.n < 2)
+      && !(max && +d.price > max);
+    el.hidden = !ok; n += ok;
+  });
+  items.sort((a, b) => {
+    const va = value(a, key), vb = value(b, key);
+    if (va === null || vb === null) return (va === null) - (vb === null);
+    const c = typeof va === 'string' ? va.localeCompare(vb) : va - vb;
+    return dir * c || (+b.dataset.ratio - +a.dataset.ratio);
+  }).forEach(el => list.appendChild(el));
+  document.querySelectorAll('.thead button').forEach(b => {
+    if (b.dataset.key === key) b.setAttribute('aria-sort', dir > 0 ? 'ascending' : 'descending');
+    else b.removeAttribute('aria-sort');
+  });
+  $('count').textContent = n + (n > 1 ? ' pièces et lots' : ' pièce ou lot');
+  $('empty').hidden = n > 0;
+}
+document.querySelectorAll('.thead button').forEach(b => b.onclick = () => {
+  const k = b.dataset.key;
+  state.sort = state.sort.key === k ? { key: k, dir: -state.sort.dir } : { key: k, dir: DEFAULT_DIR[k] };
+  apply();
+});
+$('sort').oninput = () => { const [key, dir] = MENU[$('sort').value]; state.sort = { key, dir }; apply(); };
+// l'en-tête de colonnes se cale sous la barre de filtres, quelle que soit sa hauteur
+const setBar = () => document.documentElement.style.setProperty('--bar-h', document.querySelector('.bar').offsetHeight + 'px');
+addEventListener('resize', setBar); setBar();
+document.querySelectorAll('#f-source button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('#f-source button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  state.source = b.dataset.v; apply();
+});
+['cond', 'lots'].forEach(k => $('f-' + k).onclick = e => {
+  state[k] = !state[k]; e.currentTarget.setAttribute('aria-pressed', state[k]); apply();
+});
+['f-type', 'f-max'].forEach(id => $(id).oninput = apply);
+document.querySelectorAll('[data-open]').forEach(b => b.onclick = () => $(b.dataset.open).showModal());
+document.querySelectorAll('dialog').forEach(d => {
+  d.querySelector('[data-close]').onclick = () => d.close();
+  d.onclick = e => { if (e.target === d) d.close(); };
+});
+apply();
+</script>
+</body></html>
